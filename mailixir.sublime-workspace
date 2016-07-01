@@ -1,0 +1,565 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"respon",
+				"respond_to"
+			],
+			[
+				"fil",
+				"fill	fill_in \"id_or_name_or_label\", :with => \"value\""
+			],
+			[
+				"s",
+				"sce	scenario \"should description\" do"
+			],
+			[
+				"root",
+				"root_path	(user_visits_homepage_spec.rb)"
+			],
+			[
+				"R",
+				"RSpec.describe	(rails_helper.rb)"
+			],
+			[
+				"rail",
+				"rails_helper	(user_visits_homepage_spec.rb)"
+			],
+			[
+				"user",
+				"user_path	(_user.html.haml)"
+			],
+			[
+				"tru",
+				"truncation"
+			],
+			[
+				"Database",
+				"DatabaseCleaner"
+			],
+			[
+				"sc",
+				"scenario"
+			],
+			[
+				"ar",
+				"article1"
+			],
+			[
+				"proj",
+				"project_params"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"margint",
+				"margin-bottom"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"back",
+				"background-color	(theme.scss)"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 384.0,
+		"last_filter": "g",
+		"selected_items":
+		[
+			[
+				"g",
+				"Git: Status"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"slim",
+				"Set Syntax: Ruby Slim"
+			],
+			[
+				"in ",
+				"Package Control: Install Package"
+			],
+			[
+				"ham",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax ra",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"Javas",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"ha",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"sass",
+				"Set Syntax: SCSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 79.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/javier/apps/mailixir"
+	],
+	"file_history":
+	[
+		"/home/javier/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/javier/apps/ecuadorsolidario/app/views/categories/show.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/_navbar.html.slim",
+		"/home/javier/apps/ecuadorsolidario/app/views/layouts/devise.html.slim",
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/_footprint.html.slim",
+		"/home/javier/apps/ecuadorsolidario/app/assets/javascripts/templates/categories/index.hbs",
+		"/home/javier/apps/ecuadorsolidario/app/assets/javascripts/templates/categories/index.slimbars",
+		"/home/javier/apps/ecuadorsolidario/app/assets/javascripts/templates/categories/index.hamlbars",
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/_navbar.html.haml",
+		"/home/javier/apps/ecuadorsolidario/config/application.rb",
+		"/home/javier/apps/ecuadorsolidario/Gemfile",
+		"/home/javier/apps/ecuadorsolidario/app/views/layouts/application.html.slim",
+		"/home/javier/apps/ecuadorsolidario/app/views/layouts/devise.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/layouts/explore.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/layouts/home.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/layouts/start.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/controllers/home_controller.rb",
+		"/home/javier/apps/ecuadorsolidario/app/assets/javascripts/home.js",
+		"/home/javier/apps/ecuadorsolidario/app/controllers/categories_controller.rb",
+		"/home/javier/apps/ecuadorsolidario/app/assets/javascripts/application.js",
+		"/home/javier/apps/ecuadorsolidario/app/views/projects/_start.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/controllers/projects_controller.rb",
+		"/home/javier/apps/ecuadorsolidario/app/assets/javascripts/templates/categories.hbs",
+		"/home/javier/apps/ecuadorsolidario/app/controllers/application_controller.rb",
+		"/home/javier/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/javier/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/home/javier/.config/sublime-text-3/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+		"/home/javier/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/javier/apps/ecuadorsolidario/config/routes.rb",
+		"/home/javier/apps/ecuadorsolidario/config/initializers/jsroutes.rb",
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/_footprint.html.haml",
+		"/home/javier/.config/sublime-text-3/Packages/AdvancedNewFile/Default (Linux).sublime-keymap",
+		"/home/javier/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/javier/apps/ecuadorsolidario/app/views/layouts/application.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/global_footprint.html.haml",
+		"/home/javier/apps/amelia-blog/spec/features/user_signup_spec.rb",
+		"/home/javier/apps/amelia-blog/app/views/layouts/application.html.haml",
+		"/home/javier/apps/amelia-blog/Gemfile",
+		"/home/javier/apps/amelia-blog/config/environments/development.rb",
+		"/home/javier/apps/amelia-blog/app/models/user.rb",
+		"/home/javier/apps/amelia-blog/db/migrate/20160617155151_devise_create_users.rb",
+		"/home/javier/apps/amelia-blog/app/models/post.rb",
+		"/home/javier/apps/amelia-blog/app/views/posts/new.html.haml",
+		"/home/javier/apps/amelia-blog/app/controllers/posts_controller.rb",
+		"/home/javier/apps/amelia-blog/spec/features/user_creates_post_spec.rb",
+		"/home/javier/apps/amelia-blog/spec/rails_helper.rb",
+		"/home/javier/apps/amelia-blog/spec/features/user_visits_homepage_spec.rb",
+		"/home/javier/apps/amelia-blog/app/views/home/show.html.haml",
+		"/home/javier/apps/amelia-blog/spec/helpers/home_helper_spec.rb",
+		"/home/javier/apps/amelia-blog/config/routes.rb",
+		"/home/javier/apps/amelia-blog/app/controllers/home_controller.rb",
+		"/home/javier/apps/amelia-blog/spec/views/home/show.html.haml_spec.rb",
+		"/home/javier/apps/amelia-blog/app/controllers/home_controller",
+		"/home/javier/apps/amelia-blog/config/database.yml",
+		"/home/javier/apps/ecuadorsolidario/spec/rails_helper.rb",
+		"/home/javier/apps/ecuadorsolidario/config/locales/ecusolidario.es.yml",
+		"/home/javier/apps/ecuadorsolidario/app/assets/stylesheets/theme.scss",
+		"/home/javier/apps/ecuadorsolidario/spec/helpers/users_helper_spec.rb",
+		"/home/javier/apps/ecuadorsolidario/spec/features/user_index_spec.rb",
+		"/home/javier/apps/ecuadorsolidario/app/models/user.rb",
+		"/home/javier/apps/ecuadorsolidario/spec/factories/users.rb",
+		"/home/javier/apps/ecuadorsolidario/app/controllers/users_controller.rb",
+		"/home/javier/apps/ecuadorsolidario/app/views/users/show.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/_navbar_simple.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/users/_user.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/_simple_header.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/users/index.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/_messages.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/assets/stylesheets/theme-ecusolidario.scss",
+		"/home/javier/apps/ecuadorsolidario/app/policies/project_policy.rb",
+		"/home/javier/apps/ecuadorsolidario/app/policies/user_policy.rb",
+		"/home/javier/apps/ecuadorsolidario/db/schema.rb",
+		"/home/javier/apps/ecuadorsolidario/spec/support/database_cleaner.rb",
+		"/home/javier/apps/ecuadorsolidario/spec/models/user_spec.rb",
+		"/home/javier/apps/ecuadorsolidario/spec/support/features/session_helper.rb",
+		"/home/javier/apps/ecuadorsolidario/spec/features/sign_in_spec.rb",
+		"/home/javier/apps/ecuadorsolidario/config/locales/ecusolidario.en.yml",
+		"/home/javier/apps/ecuadorsolidario/config/locales/es.yml",
+		"/home/javier/apps/ecuadorsolidario/config/locales/en.yml",
+		"/home/javier/apps/ecuadorsolidario/app/views/devise/sessions/new.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/home/start.html.haml",
+		"/home/javier/apps/ecuadorsolidario/config/locales/views/projects/index.es.yml",
+		"/home/javier/apps/ecuadorsolidario/config/locales/views/home/start.en.yml",
+		"/home/javier/apps/ecuadorsolidario/config/locales/views/home/start.es.yml",
+		"/home/javier/apps/ecuadorsolidario/db/migrate/20160615223747_add_main_fields_to_pojects.rb",
+		"/home/javier/apps/ecuadorsolidario/app/views/devise/registrations/edit.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/assets/stylesheets/application.scss",
+		"/home/javier/apps/ecuadorsolidario/app/views/projects/index.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/_footer.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/devise/passwords/new.html.haml",
+		"/home/javier/apps/ecuadorsolidario/config/locales/devise.es.yml",
+		"/home/javier/apps/ecuadorsolidario/app/views/devise/registrations/new.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/home/_get_started.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/home/index.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/home/_testimonials.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/home/_top_projects.html.haml",
+		"/home/javier/apps/ecuadorsolidario/config/locales/views/home/index.es.yml",
+		"/home/javier/apps/ecuadorsolidario/app/views/home/_header.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/home/_intro.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/home/_highlights.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/home/_starred_projects.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/assets/stylesheets/main.scss",
+		"/home/javier/apps/ecuadorsolidario/app/views/categories/new.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/devise/mailer/password_change.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/devise/shared/_links.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/devise/confirmations/new.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/devise/mailer/reset_password_instructions.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/devise/mailer/unlock_instructions.html.haml",
+		"/home/javier/apps/ecuadorsolidario/config/locales/views/devise/new.es.yml",
+		"/home/javier/apps/ecuadorsolidario/config/locales/devise.en.yml",
+		"/home/javier/apps/ecuadorsolidario/app/views/devise/mailer/confirmation_instructions.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/categories/index.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/views/projects/new.html.haml",
+		"/home/javier/apps/ecuadorsolidario/app/models/category.rb",
+		"/home/javier/apps/ecuadorsolidario/db/seeds.rb",
+		"/home/javier/apps/ecuadorsolidario/app/models/project.rb",
+		"/home/javier/apps/ecuadorsolidario/app/helpers/application_helper.rb",
+		"/home/javier/apps/ecuadorsolidario/config/environments/development.rb",
+		"/home/javier/apps/ecuadorsolidario/.bowerrc",
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/_social.html.haml",
+		"/home/javier/apps/ecuadorsolidario/config/secrets.yml",
+		"/home/javier/apps/ecuadorsolidario/config/database.yml",
+		"/home/javier/apps/ecuadorsolidario_app/config/database.yml",
+		"/home/javier/apps/ecuadorsolidario_app/app/controllers/casos_controller.rb",
+		"/home/javier/testapps/cabinet/db/schema.rb",
+		"/home/javier/testapps/cabinet/app/models/doc.rb",
+		"/home/javier/testapps/cabinet/app/assets/stylesheets/docs.css.scss",
+		"/home/javier/testapps/cabinet/app/views/docs/show.html.haml"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"')}\n",
+			"')\n",
+			"INFORMACIÓN"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Deutsch"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mailixir.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"projectsc",
+				"app/controllers/projects_controller.rb"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"application",
+				"config/application.rb"
+			],
+			[
+				"_star",
+				"app/views/projects/_start.html.haml"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"applic",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"app",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"use",
+				"app/models/user.rb"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				"new",
+				"app/views/posts/new.html.haml"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"g",
+				"Gemfile"
+			],
+			[
+				"application_",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"es",
+				"config/locales/es.yml"
+			],
+			[
+				"_na",
+				"app/views/shared/_navbar.html.haml"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"inde",
+				"config/locales/views/home/index.es.yml"
+			],
+			[
+				"edit",
+				"app/views/devise/registrations/edit.html.haml"
+			],
+			[
+				"hi",
+				"app/views/home/_highlights.html.haml"
+			],
+			[
+				"he",
+				"app/views/home/_header.html.haml"
+			],
+			[
+				"heade",
+				"app/views/home/_header.html.haml"
+			],
+			[
+				"new.en",
+				"new.en.yml"
+			],
+			[
+				"foo",
+				"app/views/shared/_footer.html.haml"
+			],
+			[
+				"nav",
+				"app/views/shared/_navbar.html.haml"
+			],
+			[
+				"main",
+				"app/assets/stylesheets/main.scss"
+			],
+			[
+				"sho",
+				"app/views/docs/show.html.haml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 345.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
