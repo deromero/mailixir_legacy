@@ -31,6 +31,7 @@ group :test do
   gem 'capybara', '~> 2.7', '>= 2.7.1'
   gem 'guard-rspec'
   gem 'launchy'
+  gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
