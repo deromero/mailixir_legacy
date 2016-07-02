@@ -3,10 +3,10 @@ h1 New client
 - if @client.errors.any?
   .error
     h2
-      = pluralize(@campaign.errors.count, "error")
+      = pluralize(@client.errors.count, "error")
       | prohibited this client form being saved
     ul
-      - @campaign.errors.full_messages.each do |msg|
+      - @client.errors.full_messages.each do |msg|
         li = msg
 
 = form_for @client do |f|

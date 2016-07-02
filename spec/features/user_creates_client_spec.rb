@@ -13,7 +13,14 @@ RSpec.describe 'Creating client' do
   end
 
   scenario "should unsucess" do
+    visit root_path
+    click_on "Create a client"
 
+    fill_in "Name", with: "My second client"
+    fill_in "Description", with: ""
+
+    click_on  "Save"
+    expect(page).to have_css ".error"
   end
 
 end
