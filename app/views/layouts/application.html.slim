@@ -10,4 +10,8 @@ html
     header
       = link_to "Create a campaign", new_campaign_path
       = link_to "Create a client", new_client_path
+
+    p.notice #{notice}
+    p.alert #{alert}
+
     = yield
