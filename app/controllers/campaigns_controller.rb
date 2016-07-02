@@ -5,7 +5,7 @@ class CampaignsController < ApplicationController
   end
 
   def create
-    @campaign = Campaign.new(post_params)
+    @campaign = Campaign.new(campaign_params)
 
     if @campaign.save
       redirect_to campaign_path @campaign
@@ -20,7 +20,7 @@ class CampaignsController < ApplicationController
 
   private
 
-  def post_params
+  def campaign_params
     params.require(:campaign).permit(:name, :description)
   end
 
