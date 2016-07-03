@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'slim-rails'
 gem 'devise'
 gem 'apartment'
+gem 'simple_form'
 
 group :development, :test do
   gem 'guard'
