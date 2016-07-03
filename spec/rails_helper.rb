@@ -13,6 +13,8 @@ Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 
 ActiveRecord::Migration.maintain_test_schema!
 
+Capybara.app_host = 'http://example.com'
+
 RSpec.configure do |config|
 
   config.use_transactional_fixtures = false
@@ -44,6 +46,8 @@ RSpec.configure do |config|
 
   config.append_after(:each) do
     DatabaseCleaner.clean
+    Apartment::Database.reset
+    drop_schemas
   end
 
 

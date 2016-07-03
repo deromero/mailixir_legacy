@@ -1,4 +1,5 @@
 class AccountsController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:new, :create]
 
   def new
      @account = Account.new
@@ -7,8 +8,12 @@ class AccountsController < ApplicationController
 
   def create
     @account = Account.new(account_params)
-    if(@account.save)
-      redirect_to root_path, notice: 'Signed up successfully'
+    if @account.valid?
+      Apartment::Database.create(@account.subdomain)
+      Apartment::Database.switch(@account.subdomain)
+
+      @account.save
+      redirect_to new_user_session_url(subdomain: @account.subdomain)
     else
       render :new
     end
