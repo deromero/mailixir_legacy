@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   devise_for :users
   resources :campaigns, only: [:new, :create, :show]
   resources :clients, only: [:new, :create, :show]
-  resources :accounts
+  resources :accounts, only: [:new, :create, :show]
 
 end
