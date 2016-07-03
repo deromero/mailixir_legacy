@@ -2,16 +2,10 @@ header.container
   nav.navbar.navbar-default
     .navbar-header
       = link_to "Mailixir", root_path, class: "navbar-brand"
-    ul.nav.navbar-nav.navbar-right
-      li
-        = link_to "Create a campaign", new_campaign_path
-      li
-        = link_to "Create a client", new_client_path
+    .pull-right.right-buttons
+      = link_to "Create a campaign", new_campaign_path, class: 'btn btn-default navbar.btn'
+      = link_to "Create a client", new_client_path, class: 'btn btn-default navbar.btn'
       - if user_signed_in?
-        li
-          = current_user.email
-          | |
-          = link_to "Sign out", destroy_user_session_path, method: :delete
+        = link_to "Sign out", destroy_user_session_path, method: :delete, class: 'btn btn-default navbar.btn'
       - else
-        li
-          = link_to "Sign in / Sign up", new_user_session_path
+        = link_to "Sign in", new_user_session_path, class: 'btn btn-default navbar.btn'
