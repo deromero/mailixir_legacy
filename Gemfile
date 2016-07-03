@@ -14,9 +14,12 @@ gem 'slim-rails'
 gem 'devise'
 
 group :development, :test do
+  gem 'guard'
+  gem 'guard-livereload'
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_girl_rails'
+  gem 'shoulda-matchers'
 end
 
 group :development do
