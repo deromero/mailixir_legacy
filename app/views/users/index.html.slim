@@ -1,0 +1,18 @@
+.col-md-8.col-md-offset-2
+  h2 Authorized Users
+
+  .panel.panel-default
+    .panel-body
+      table.table.table-stripped
+        thead
+          tr
+            th Name
+            th Email
+            th Status
+        tbody
+          - @users.each do |user|
+            tr
+              td #{user.name}
+              td #{user.email}
+              td #{ user_status(user) }
+
