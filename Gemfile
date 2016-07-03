@@ -13,6 +13,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'slim-rails'
 gem 'devise'
+gem 'devise_invitable'
 gem 'apartment'
 gem 'simple_form'
 
@@ -23,6 +24,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers'
+  gem 'letter_opener'
+  gem 'email_spec'
 end
 
 group :development do

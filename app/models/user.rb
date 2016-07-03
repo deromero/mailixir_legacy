@@ -1,6 +1,6 @@
 class User < ApplicationRecord
 
-  devise :database_authenticatable,
+  devise :invitable, :database_authenticatable,
          :recoverable, :rememberable, :trackable, :validatable
 
   validates :name, presence: true
