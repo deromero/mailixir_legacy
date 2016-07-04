@@ -1,23 +1,20 @@
 require 'rails_helper'
 
 RSpec.describe Client, type: :model do
+  let(:client) { build(:client) }
+
   it "has a valid factory" do
-    client = build(:client)
     expect(client).to be_valid
   end
 
-  it 'is invalid without a name' do
-    client = build(:client, name: nil)
-    expect(client).not_to be_valid
+  describe 'validations' do
+    it { should validate_presence_of :name }
+    it { should validate_presence_of :contact_name }
+    it { should validate_presence_of :contact_email }
   end
 
-  it 'is invalid without a contact name' do
-    client = build(:client, contact_name: nil)
-    expect(client).not_to be_valid
+  describe 'associations' do
+    #it { should has_many :campaigns }
   end
 
-  it 'is invalid without a contact email' do
-    client = build(:client, contact_email: nil)
-    expect(client).not_to be_valid
-  end
 end

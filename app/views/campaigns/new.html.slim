@@ -4,6 +4,7 @@
 
     = simple_form_for @campaign do |f|
       = f.input :name
+      = f.association :client
       = f.input :subject
       = f.input :from_email
       = f.input :from_name

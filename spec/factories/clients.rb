@@ -7,5 +7,7 @@ FactoryGirl.define do
     f.contact_email { Faker::Internet.email }
     f.country_code { Faker::Address.country_code }
     f.time_zone { -5 }
+
+
   end
 end

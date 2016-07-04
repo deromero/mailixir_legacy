@@ -26,8 +26,9 @@ class CampaignsController < ApplicationController
   private
 
   def campaign_params
-    params.require(:campaign).permit(:name, :subject, :from_email,
-                                     :from_name, :reply_to, :send_report_to)
+    params.require(:campaign).permit(:name, :subject, :client, :client_id,
+                                     :from_email, :from_name, :reply_to,
+                                     :send_report_to)
   end
 
 

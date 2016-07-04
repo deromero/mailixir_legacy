@@ -1,5 +1,7 @@
 class Client < ApplicationRecord
-  validates :name, presence: true
-  validates :contact_name, presence: true
-  validates :contact_email, presence: true
+  has_many :campaigns, dependent: :destroy
+  accepts_nested_attributes_for :campaigns
+
+  validates :name, :contact_name, :contact_email, presence: true
+
 end

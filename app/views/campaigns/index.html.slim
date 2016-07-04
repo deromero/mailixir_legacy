@@ -10,6 +10,7 @@
           tr
             th ID
             th Name
+            th Client
             th Subject
             th Status
             th Scheduled
@@ -18,6 +19,7 @@
             tr
               td.campaign_id #{campaign.id}
               td #{campaign.name}
+              td #{campaign.client.name}
               td #{campaign.subject}
               td #{campaign.status}
               td #{campaign.scheduled_on}

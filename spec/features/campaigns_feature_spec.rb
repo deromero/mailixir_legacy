@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe 'clients' do
+RSpec.describe 'campaigns' do
   let(:account) { create(:account_with_schema ) }
   let(:user) { account.owner }
 
@@ -10,19 +10,25 @@ RSpec.describe 'clients' do
     visit root_path
   end
 
-  it 'shows a list of campaigns' do
-    created_campaigns = create_list(:campaign, 5)
+  describe 'list of items' do
+    let(:client) { create(:client) }
 
-    click_on "Campaigns"
+    it 'shows a list of campaigns' do
+      created_campaigns = create_list(:campaign, 10, client: client)
 
-    campaign_ids = page.all('table#campaigns td.campaign_id').map(&:text)
-    expect(campaign_ids).not_to be_empty
-    expect(campaign_ids.size).to eq(5)
+      click_on "Campaigns"
+
+      campaign_ids = page.all('table#campaigns td.campaign_id').map(&:text)
+      expect(campaign_ids).not_to be_empty
+      expect(campaign_ids.size).to eq(10)
+    end
 
   end
 
   describe 'when a user creates a campaign' do
-    before do
+
+    before(:each) do
+      @created_clients = create_list(:client, 10)
       visit campaigns_path
       click_on "Create a campaign"
     end
@@ -36,6 +42,9 @@ RSpec.describe 'clients' do
       fill_in "Reply to", with: "reply_to@campaign.com"
       fill_in "Send report to", with: "report@campaign.com"
 
+      selected_client = @created_clients[0]
+      select selected_client.name, from: "Client"
+
       click_on  "Create Campaign"
 
       expect(page).to have_content "My first campaign"
@@ -43,7 +52,7 @@ RSpec.describe 'clients' do
 
     end
 
-    it "should unsucess" do
+    it "should generic unsucess" do
 
       fill_in "Name", with: "My first campaign"
       fill_in "Subject", with: "Campaign Subject"
@@ -57,6 +66,19 @@ RSpec.describe 'clients' do
       expect(page).to have_css ".has-error"
     end
 
+    it 'should not save without client' do
+      fill_in "Name", with: "My first campaign"
+      fill_in "Subject", with: "Campaign Subject"
+      fill_in "From email", with: "from@campaign.com"
+      fill_in "From name", with: "From Name"
+      fill_in "Reply to", with: "reply_to@campaign.com"
+      fill_in "Send report to", with: "report@campaign.com"
+
+      click_on  "Create Campaign"
+
+      expect(page).to have_css ".has-error"
+      expect(page).to have_content "must exist"
+    end
 
   end
 
