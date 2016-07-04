@@ -10,6 +10,7 @@ require "action_mailer/railtie"
 require "action_view/railtie"
 require "action_cable/engine"
 require "sprockets/railtie"
+require 'apartment/elevators/subdomain'
 # require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
@@ -22,7 +23,12 @@ module Mailixir
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     #
+
+    config.middleware.use Apartment::Elevators::Subdomain
+
     config.generators do |g|
+
+
       g.template_engine :slim
 
       g.test_framework :rspec,
@@ -33,7 +39,6 @@ module Mailixir
         :controller_specs => true,
         :request_specs => true
       g.fixture_replacement :factory_girl, :dir => "spec/factories"
-
     end
   end
 end

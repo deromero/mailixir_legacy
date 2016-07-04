@@ -1,17 +1,17 @@
-class SubdomainPresent
+class SubdomainPresentConstraint
   def self.matches?(request)
     request.subdomain.present?
   end
 end
 
-class SubdomainBlank
+class SubdomainBlankConstraint
   def self.matches?(request)
     request.subdomain.blank?
   end
 end
 
 Rails.application.routes.draw do
-  constraints(SubdomainPresent) do
+  constraints(SubdomainPresentConstraint) do
     root 'dashboard#index', as: :subdomain_root
     devise_for :users
     resources :users, only: [:index]
@@ -19,7 +19,7 @@ Rails.application.routes.draw do
     resources :clients, only: [:new, :create, :show]
   end
 
-  constraints(SubdomainBlank) do
+  constraints(SubdomainBlankConstraint) do
     root 'welcome#index'
     resources :accounts, only: [:new, :create, :show]
   end
