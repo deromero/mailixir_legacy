@@ -1,19 +1,15 @@
-h1 New campaign
+.col-md-8.col-md-offset-2.panel.panel-default
+  .panel-body
+    h2 New campaign
 
-- if @campaign.errors.any?
-  .error
-    h2
-      = pluralize(@campaign.errors.count, "error")
-      | prohibited this campaign form being saved
-    ul
-      - @campaign.errors.full_messages.each do |msg|
-        li = msg
+    = simple_form_for @campaign do |f|
+      = f.input :name
+      = f.input :subject
+      = f.input :from_email
+      = f.input :from_name
+      = f.input :reply_to
+      = f.input :send_report_to
 
-= form_for @campaign do |f|
-  = f.label :name
-  = f.text_field :name
+      = f.button :submit, class: 'btn-primary'
 
-  = f.label :description
-  = f.text_area :description
-
-  = f.submit "Save"
+    = flash_messages layout_flash: false

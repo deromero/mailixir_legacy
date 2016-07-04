@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160704031657) do
+ActiveRecord::Schema.define(version: 20160704132955) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,9 +24,18 @@ ActiveRecord::Schema.define(version: 20160704031657) do
 
   create_table "campaigns", force: :cascade do |t|
     t.string   "name"
-    t.text     "description"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",                      null: false
+    t.datetime "updated_at",                      null: false
+    t.string   "subject",            default: "", null: false
+    t.string   "from_email",         default: "", null: false
+    t.string   "from_name",          default: "", null: false
+    t.string   "reply_to",           default: "", null: false
+    t.integer  "status",             default: 0,  null: false
+    t.string   "send_report_to"
+    t.datetime "scheduled_on"
+    t.datetime "sending_started_on"
+    t.datetime "sent_on"
+    t.datetime "retry_started_on"
   end
 
   create_table "clients", force: :cascade do |t|

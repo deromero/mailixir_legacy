@@ -15,7 +15,7 @@ Rails.application.routes.draw do
     root 'dashboard#index', as: :subdomain_root
     devise_for :users
     resources :users, only: [:index]
-    resources :campaigns, only: [:new, :create, :show]
+    resources :campaigns, only: [:index, :new, :create, :show]
     resources :clients, only: [:index, :new, :create, :show]
   end
 
@@ -23,7 +23,4 @@ Rails.application.routes.draw do
     root 'welcome#index'
     resources :accounts, only: [:new, :create, :show]
   end
-
-
-
 end
