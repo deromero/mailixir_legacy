@@ -16,6 +16,7 @@ gem 'devise'
 gem 'devise_invitable'
 gem 'apartment'
 gem 'simple_form'
+gem 'country_select'
 
 group :development, :test do
   gem 'guard'

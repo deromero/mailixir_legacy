@@ -1,0 +1,24 @@
+.col-md-12
+  .pull-right
+    = link_to "Create a client", new_client_path, class: 'btn btn-primary'
+  h2 Clients
+
+  .panel.panel-default
+    .panel-body
+      table.table.table-stripped#clients
+        thead
+          tr
+            th ID
+            th Name
+            th Contact Name
+            th Contact Email
+            th Country Code
+        tbody
+          - @clients.each do |client|
+            tr
+              td.client_id #{client.id}
+              td #{client.name}
+              td #{client.contact_name}
+              td #{client.contact_email}
+              td #{client.country_code}
+

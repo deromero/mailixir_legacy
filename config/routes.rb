@@ -16,7 +16,7 @@ Rails.application.routes.draw do
     devise_for :users
     resources :users, only: [:index]
     resources :campaigns, only: [:new, :create, :show]
-    resources :clients, only: [:new, :create, :show]
+    resources :clients, only: [:index, :new, :create, :show]
   end
 
   constraints(SubdomainBlankConstraint) do

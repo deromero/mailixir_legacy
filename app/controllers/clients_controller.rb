@@ -1,5 +1,9 @@
 class ClientsController < ApplicationController
 
+  def index
+    @clients = Client.all
+  end
+
   def new
     @client = Client.new
   end
@@ -9,6 +13,7 @@ class ClientsController < ApplicationController
 
     if @client.save
       redirect_to client_path @client
+      flash[:notice] = "Client #{@client.name} successfully created!"
     else
       render :new
     end
@@ -22,7 +27,8 @@ class ClientsController < ApplicationController
   private
 
   def client_params
-    params.require(:client).permit(:name, :description)
+    params.require(:client).permit(:name, :contact_name, :contact_email,
+                                   :country_code, :time_zone)
   end
 
 end

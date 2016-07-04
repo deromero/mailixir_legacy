@@ -1,19 +1,14 @@
-h1 New client
+.col-md-8.col-md-offset-2.panel.panel-default
+  .panel-body
+    h2 New client
 
-- if @client.errors.any?
-  .error
-    h2
-      = pluralize(@client.errors.count, "error")
-      | prohibited this client form being saved
-    ul
-      - @client.errors.full_messages.each do |msg|
-        li = msg
+    = simple_form_for @client do |f|
+      = f.input :name
+      = f.input :contact_name
+      = f.input :contact_email
+      = f.input :country_code
+      = f.input :time_zone
 
-= form_for @client do |f|
-  = f.label :name
-  = f.text_field :name
+      = f.button :submit, class: 'btn-primary'
 
-  = f.label :description
-  = f.text_area :description
-
-  = f.submit "Save"
+    = flash_messages layout_flash: false

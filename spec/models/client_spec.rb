@@ -11,8 +11,13 @@ RSpec.describe Client, type: :model do
     expect(client).not_to be_valid
   end
 
-  it 'is invalid without a description' do
-    client = build(:client, description: nil)
+  it 'is invalid without a contact name' do
+    client = build(:client, contact_name: nil)
+    expect(client).not_to be_valid
+  end
+
+  it 'is invalid without a contact email' do
+    client = build(:client, contact_email: nil)
     expect(client).not_to be_valid
   end
 end
