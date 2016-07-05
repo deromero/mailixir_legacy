@@ -52,7 +52,29 @@ RSpec.describe 'clients' do
     end
   end
 
+  describe 'when user view client details' do
+    before do
+      @created_clients = create_list(:client, 10)
+      @selected_client = @created_clients[5]
+      @created_campaigns = create_list(:campaign, 10, client: @selected_client)
 
+      visit clients_path
+    end
 
+    it 'should view a client details' do
+      find('tr',text: @selected_client.name).click_link("Details")
 
+      expect(page).to have_content(@selected_client.name)
+      expect(current_path).to eq(client_path(@selected_client))
+    end
+
+    it 'should view a list of client campaigns' do
+      find('tr',text: @selected_client.name).click_link("Details")
+
+      campaign_ids = page.all('table#campaigns td.campaign_id').map(&:text)
+      expect(campaign_ids).not_to be_empty
+      expect(campaign_ids.size).to eq(10)
+    end
+
+  end
 end

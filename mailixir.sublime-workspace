@@ -4,6 +4,174 @@
 		"selected_items":
 		[
 			[
+				"ass",
+				"association	(accounts.rb)"
+			],
+			[
+				"validat",
+				"validate_presence_of	(campaign_spec.rb)"
+			],
+			[
+				"it",
+				"it	it 'does something' do … end"
+			],
+			[
+				"validate",
+				"validate_presence_of	(client_spec.rb)"
+			],
+			[
+				"conta",
+				"contact_email	(clients_controller.rb)"
+			],
+			[
+				"count",
+				"country_code	(clients.rb)"
+			],
+			[
+				"contac",
+				"contact_email	(clients.rb)"
+			],
+			[
+				"cou",
+				"country_code	(new.html.slim)"
+			],
+			[
+				"click",
+				"click_button"
+			],
+			[
+				"confi",
+				"configure_permitted_parameters"
+			],
+			[
+				"set",
+				"set_mailer_host"
+			],
+			[
+				"simpl",
+				"simple_form_for	(new.html.slim)"
+			],
+			[
+				"app",
+				"app_host"
+			],
+			[
+				"helper",
+				"helper_method〔function〕"
+			],
+			[
+				"Su",
+				"SubdomainBlank"
+			],
+			[
+				"su",
+				"subdomain2"
+			],
+			[
+				"ex",
+				"expeq	expect(obj).to eq(value)"
+			],
+			[
+				"subd",
+				"subdomain2"
+			],
+			[
+				"sig",
+				"sign_up"
+			],
+			[
+				"redirec",
+				"redirect_to〔function〕"
+			],
+			[
+				"new_user",
+				"new_user_session_url	(sign_in.rb)"
+			],
+			[
+				"roo",
+				"root_url"
+			],
+			[
+				"click_",
+				"click_link"
+			],
+			[
+				"sign",
+				"sign_in"
+			],
+			[
+				"ep",
+				"expto	expect { expression }.to something"
+			],
+			[
+				"password",
+				"password_confirmation	(new.html.slim)"
+			],
+			[
+				"errors",
+				"errors_for"
+			],
+			[
+				"root",
+				"root_path	(account_creation_feature_spec.rb)"
+			],
+			[
+				"cl",
+				"cla	Create controller class"
+			],
+			[
+				"down",
+				"downcase_subdomain"
+			],
+			[
+				"sub",
+				"subdomain"
+			],
+			[
+				"allow",
+				"allow_value"
+			],
+			[
+				"new",
+				"new_user_session_path	(sign_in.rb)"
+			],
+			[
+				"cli",
+				"click_on	(user_signup_spec.rb)"
+			],
+			[
+				"desc",
+				"describe	(campaign_spec.rb)"
+			],
+			[
+				"feat",
+				"feature	(rails_helper.rb)"
+			],
+			[
+				"rails",
+				"rails_helper	(user_signup_spec.rb)"
+			],
+			[
+				"form",
+				"form_for	(new.html.slim)"
+			],
+			[
+				"des",
+				"describe	(user_creates_campaign_spec.rb)"
+			],
+			[
+				"ro",
+				"root_path"
+			],
+			[
+				"exp",
+				"exp	expect(subject).to something"
+			],
+			[
+				"sc",
+				"sce	scenario \"should description\" do"
+			],
+			[
 				"respon",
 				"respond_to"
 			],
@@ -14,10 +182,6 @@
 			[
 				"s",
 				"sce	scenario \"should description\" do"
-			],
-			[
-				"root",
-				"root_path	(user_visits_homepage_spec.rb)"
 			],
 			[
 				"R",
@@ -38,10 +202,6 @@
 			[
 				"Database",
 				"DatabaseCleaner"
-			],
-			[
-				"sc",
-				"scenario"
 			],
 			[
 				"ar",
@@ -79,6 +239,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "spec/features/campaigns_feature_spec.rb",
+			"settings":
+			{
+				"buffer_size": 2330,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/features/clients_feature_spec.rb",
+			"settings":
+			{
+				"buffer_size": 2258,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/campaigns_controller.rb",
+			"settings":
+			{
+				"buffer_size": 694,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/campaigns/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 664,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/clients/show.html.slim",
+			"settings":
+			{
+				"buffer_size": 678,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/dashboard/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -88,9 +296,65 @@
 	"command_palette":
 	{
 		"height": 384.0,
-		"last_filter": "g",
+		"last_filter": "comm",
 		"selected_items":
 		[
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"to",
+				"Toggle Comment"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"slim",
+				"Set Syntax: Ruby Slim"
+			],
+			[
+				"rea",
+				"File: Rename"
+			],
+			[
+				"dele",
+				"ANF: Delete File"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"rs",
+				"Set Syntax: RSpec"
+			],
+			[
+				"rsp",
+				"Set Syntax: RSpec"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"g",
 				"Git: Status"
@@ -98,14 +362,6 @@
 			[
 				"gitsta",
 				"Git: Status"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"slim",
-				"Set Syntax: Ruby Slim"
 			],
 			[
 				"in ",
@@ -130,10 +386,6 @@
 			[
 				"Javas",
 				"Set Syntax: JavaScript (Rails)"
-			],
-			[
-				"ruby",
-				"Set Syntax: Ruby"
 			],
 			[
 				"in",
@@ -185,10 +437,101 @@
 	},
 	"expanded_folders":
 	[
-		"/home/javier/apps/mailixir"
+		"/home/javier/apps/mailixir",
+		"/home/javier/apps/mailixir/app/helpers",
+		"/home/javier/apps/mailixir/db/migrate",
+		"/home/javier/apps/mailixir/spec/models",
+		"/home/javier/apps/mailixir/spec/support",
+		"/home/javier/apps/mailixir/spec/support/features"
 	],
 	"file_history":
 	[
+		"/home/javier/apps/mailixir/app/views/clients/index.html.slim",
+		"/home/javier/apps/mailixir/db/schema.rb",
+		"/home/javier/apps/mailixir/db/migrate/20160704132955_fix_campaign_structure.rb",
+		"/home/javier/apps/mailixir/spec/factories/accounts.rb",
+		"/home/javier/apps/mailixir/spec/models/campaign_spec.rb",
+		"/home/javier/apps/mailixir/spec/features/clients_feature_spec.rb",
+		"/home/javier/apps/mailixir/app/views/campaigns/new.html.slim",
+		"/home/javier/apps/mailixir/spec/models/client_spec.rb",
+		"/home/javier/apps/mailixir/db/migrate/20160704031657_fix_client_structure.rb",
+		"/home/javier/apps/mailixir/app/models/client.rb",
+		"/home/javier/apps/mailixir/app/models/campaign.rb",
+		"/home/javier/apps/mailixir/spec/factories/users.rb",
+		"/home/javier/apps/mailixir/spec/factories/clients.rb",
+		"/home/javier/apps/mailixir/spec/factories/campaigns.rb",
+		"/home/javier/apps/mailixir/app/controllers/clients_controller.rb",
+		"/home/javier/apps/mailixir/app/views/campaigns/index.html.slim",
+		"/home/javier/apps/mailixir/spec/features/invitations_feature_spec.rb",
+		"/home/javier/apps/mailixir/app/controllers/campaigns_controller.rb",
+		"/home/javier/apps/mailixir/app/views/campaigns/show.html.slim",
+		"/home/javier/apps/mailixir/config/routes.rb",
+		"/home/javier/apps/mailixir/app/views/layouts/_header.html.slim",
+		"/home/javier/apps/mailixir/app/views/dashboard/index.html.slim",
+		"/home/javier/apps/mailixir/app/views/clients/new.html.slim",
+		"/home/javier/apps/mailixir/db/migrate/20160701230936_create_campaigns.rb",
+		"/home/javier/apps/mailixir/app/views/users/index.html.slim",
+		"/home/javier/apps/mailixir/app/views/devise/sessions/new.html.slim",
+		"/home/javier/apps/mailixir/spec/features/user_creates_client_spec.rb",
+		"/home/javier/apps/mailixir/app/views/accounts/new.html.slim",
+		"/home/javier/apps/mailixir/spec/features/account_creation_feature_spec.rb",
+		"/home/javier/apps/mailixir/app/controllers/accounts_controller.rb",
+		"/home/javier/apps/mailixir/app/helpers/layout_helper.rb",
+		"/home/javier/apps/mailixir/app/views/devise/invitations/new.html.slim",
+		"/home/javier/apps/mailixir/Gemfile",
+		"/home/javier/apps/mailixir/db/migrate/20160702015620_devise_create_users.rb",
+		"/home/javier/apps/mailixir/db/migrate/20160703164321_devise_invitable_add_to_users.rb",
+		"/home/javier/apps/mailixir/db/migrate/20160702012619_create_clients.rb",
+		"/home/javier/apps/mailixir/spec/features/subdomain_feature_spec.rb",
+		"/home/javier/apps/mailixir/config/initializers/apartment.rb",
+		"/home/javier/apps/mailixir/config/application.rb",
+		"/home/javier/apps/mailixir/app/controllers/application_controller.rb",
+		"/home/javier/apps/mailixir/app/models/account.rb",
+		"/home/javier/apps/mailixir/app/controllers/welcome_controller.rb",
+		"/home/javier/apps/mailixir/config/environment.rb",
+		"/home/javier/apps/mailixir/config/locales/devise.en.yml",
+		"/home/javier/apps/mailixir/app/helpers/user_helper.rb",
+		"/home/javier/apps/mailixir/spec/rails_helper.rb",
+		"/home/javier/apps/mailixir/config/locales/devise_invitable.en.yml",
+		"/home/javier/apps/mailixir/app/views/devise/invitations/edit.html.slim",
+		"/home/javier/apps/mailixir/app/controllers/users_controller.rb",
+		"/home/javier/apps/mailixir/config/environments/development.rb",
+		"/home/javier/apps/mailixir/app/views/devise/mailer/invitation_instructions.text.slim",
+		"/home/javier/apps/mailixir/app/views/devise/mailer/invitation_instructions.html.slim",
+		"/home/javier/apps/mailixir/config/initializers/simple_form.rb",
+		"/home/javier/apps/mailixir/config/initializers/simple_form_bootstrap.rb",
+		"/home/javier/apps/mailixir/app/helpers/form_helper.rb",
+		"/home/javier/apps/mailixir/app/assets/stylesheets/layout.scss",
+		"/home/javier/apps/mailixir/spec/support/features/sign_in.rb",
+		"/home/javier/apps/mailixir/app/controllers/dashboard_controller.rb",
+		"/home/javier/apps/mailixir/spec/features/user_creates_campaign_spec.rb",
+		"/home/javier/apps/mailixir/spec/features/authentication_feature_spec.rb",
+		"/home/javier/apps/mailixir/spec/support/macros.rb",
+		"/home/javier/apps/mailixir/app/views/layouts/application.html.slim",
+		"/home/javier/apps/mailixir/app/assets/stylesheets/signin.scss",
+		"/home/javier/apps/mailixir/app/assets/stylesheets/application.scss",
+		"/home/javier/apps/mailixir/app/assets/stylesheets/layout.css.scss",
+		"/home/javier/apps/mailixir/spec/models/account_spec.rb",
+		"/home/javier/apps/mailixir/spec/models/user_spec.rb",
+		"/home/javier/apps/mailixir/app/models/user.rb",
+		"/home/javier/apps/mailixir/spec/features/user_signup_spec.rb",
+		"/home/javier/apps/mailixir/app/views/devise/registrations/new.html.slim",
+		"/home/javier/apps/mailixir/spec/features/user_signin_spec.rb",
+		"/home/javier/apps/mailixir/config/initializers/devise.rb",
+		"/home/javier/apps/mailixir/app/views/welcome/index.html.slim",
+		"/home/javier/apps/mailixir/app/assets/javascripts/application.js",
+		"/home/javier/apps/mailixir/spec/spec_helper.rb",
+		"/home/javier/apps/mailixir/Guardfile",
+		"/home/javier/apps/mailixir/spec/support/factory_girl.rb",
+		"/home/javier/apps/mailixir/config/spring.rb",
+		"/home/javier/apps/mailixir/.rspec",
+		"/home/javier/apps/mailixir/app/views/clients/show.html.slim",
+		"/home/javier/apps/mailixir/app/controllers/home_controller.rb",
+		"/home/javier/apps/mailixir/app/views/home/show.html.slim",
+		"/home/javier/apps/mailixir/.travis.yml",
+		"/home/javier/apps/mailixir/spec/features/user_visits_homepage_spec.rb",
+		"/home/javier/apps/mailixir/app/views/layouts/mailer.html.slim",
+		"/home/javier/apps/mailixir/app/views/layouts/mailer.text.slim",
 		"/home/javier/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/javier/apps/ecuadorsolidario/app/views/categories/show.html.haml",
 		"/home/javier/apps/ecuadorsolidario/app/views/shared/_navbar.html.slim",
@@ -230,93 +573,7 @@
 		"/home/javier/apps/amelia-blog/config/environments/development.rb",
 		"/home/javier/apps/amelia-blog/app/models/user.rb",
 		"/home/javier/apps/amelia-blog/db/migrate/20160617155151_devise_create_users.rb",
-		"/home/javier/apps/amelia-blog/app/models/post.rb",
-		"/home/javier/apps/amelia-blog/app/views/posts/new.html.haml",
-		"/home/javier/apps/amelia-blog/app/controllers/posts_controller.rb",
-		"/home/javier/apps/amelia-blog/spec/features/user_creates_post_spec.rb",
-		"/home/javier/apps/amelia-blog/spec/rails_helper.rb",
-		"/home/javier/apps/amelia-blog/spec/features/user_visits_homepage_spec.rb",
-		"/home/javier/apps/amelia-blog/app/views/home/show.html.haml",
-		"/home/javier/apps/amelia-blog/spec/helpers/home_helper_spec.rb",
-		"/home/javier/apps/amelia-blog/config/routes.rb",
-		"/home/javier/apps/amelia-blog/app/controllers/home_controller.rb",
-		"/home/javier/apps/amelia-blog/spec/views/home/show.html.haml_spec.rb",
-		"/home/javier/apps/amelia-blog/app/controllers/home_controller",
-		"/home/javier/apps/amelia-blog/config/database.yml",
-		"/home/javier/apps/ecuadorsolidario/spec/rails_helper.rb",
-		"/home/javier/apps/ecuadorsolidario/config/locales/ecusolidario.es.yml",
-		"/home/javier/apps/ecuadorsolidario/app/assets/stylesheets/theme.scss",
-		"/home/javier/apps/ecuadorsolidario/spec/helpers/users_helper_spec.rb",
-		"/home/javier/apps/ecuadorsolidario/spec/features/user_index_spec.rb",
-		"/home/javier/apps/ecuadorsolidario/app/models/user.rb",
-		"/home/javier/apps/ecuadorsolidario/spec/factories/users.rb",
-		"/home/javier/apps/ecuadorsolidario/app/controllers/users_controller.rb",
-		"/home/javier/apps/ecuadorsolidario/app/views/users/show.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/shared/_navbar_simple.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/users/_user.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/shared/_simple_header.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/users/index.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/shared/_messages.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/assets/stylesheets/theme-ecusolidario.scss",
-		"/home/javier/apps/ecuadorsolidario/app/policies/project_policy.rb",
-		"/home/javier/apps/ecuadorsolidario/app/policies/user_policy.rb",
-		"/home/javier/apps/ecuadorsolidario/db/schema.rb",
-		"/home/javier/apps/ecuadorsolidario/spec/support/database_cleaner.rb",
-		"/home/javier/apps/ecuadorsolidario/spec/models/user_spec.rb",
-		"/home/javier/apps/ecuadorsolidario/spec/support/features/session_helper.rb",
-		"/home/javier/apps/ecuadorsolidario/spec/features/sign_in_spec.rb",
-		"/home/javier/apps/ecuadorsolidario/config/locales/ecusolidario.en.yml",
-		"/home/javier/apps/ecuadorsolidario/config/locales/es.yml",
-		"/home/javier/apps/ecuadorsolidario/config/locales/en.yml",
-		"/home/javier/apps/ecuadorsolidario/app/views/devise/sessions/new.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/home/start.html.haml",
-		"/home/javier/apps/ecuadorsolidario/config/locales/views/projects/index.es.yml",
-		"/home/javier/apps/ecuadorsolidario/config/locales/views/home/start.en.yml",
-		"/home/javier/apps/ecuadorsolidario/config/locales/views/home/start.es.yml",
-		"/home/javier/apps/ecuadorsolidario/db/migrate/20160615223747_add_main_fields_to_pojects.rb",
-		"/home/javier/apps/ecuadorsolidario/app/views/devise/registrations/edit.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/assets/stylesheets/application.scss",
-		"/home/javier/apps/ecuadorsolidario/app/views/projects/index.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/shared/_footer.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/devise/passwords/new.html.haml",
-		"/home/javier/apps/ecuadorsolidario/config/locales/devise.es.yml",
-		"/home/javier/apps/ecuadorsolidario/app/views/devise/registrations/new.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/home/_get_started.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/home/index.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/home/_testimonials.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/home/_top_projects.html.haml",
-		"/home/javier/apps/ecuadorsolidario/config/locales/views/home/index.es.yml",
-		"/home/javier/apps/ecuadorsolidario/app/views/home/_header.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/home/_intro.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/home/_highlights.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/home/_starred_projects.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/assets/stylesheets/main.scss",
-		"/home/javier/apps/ecuadorsolidario/app/views/categories/new.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/devise/mailer/password_change.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/devise/shared/_links.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/devise/confirmations/new.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/devise/mailer/reset_password_instructions.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/devise/mailer/unlock_instructions.html.haml",
-		"/home/javier/apps/ecuadorsolidario/config/locales/views/devise/new.es.yml",
-		"/home/javier/apps/ecuadorsolidario/config/locales/devise.en.yml",
-		"/home/javier/apps/ecuadorsolidario/app/views/devise/mailer/confirmation_instructions.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/categories/index.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/projects/new.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/models/category.rb",
-		"/home/javier/apps/ecuadorsolidario/db/seeds.rb",
-		"/home/javier/apps/ecuadorsolidario/app/models/project.rb",
-		"/home/javier/apps/ecuadorsolidario/app/helpers/application_helper.rb",
-		"/home/javier/apps/ecuadorsolidario/config/environments/development.rb",
-		"/home/javier/apps/ecuadorsolidario/.bowerrc",
-		"/home/javier/apps/ecuadorsolidario/app/views/shared/_social.html.haml",
-		"/home/javier/apps/ecuadorsolidario/config/secrets.yml",
-		"/home/javier/apps/ecuadorsolidario/config/database.yml",
-		"/home/javier/apps/ecuadorsolidario_app/config/database.yml",
-		"/home/javier/apps/ecuadorsolidario_app/app/controllers/casos_controller.rb",
-		"/home/javier/testapps/cabinet/db/schema.rb",
-		"/home/javier/testapps/cabinet/app/models/doc.rb",
-		"/home/javier/testapps/cabinet/app/assets/stylesheets/docs.css.scss",
-		"/home/javier/testapps/cabinet/app/views/docs/show.html.haml"
+		"/home/javier/apps/amelia-blog/app/models/post.rb"
 	],
 	"find":
 	{
@@ -334,6 +591,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"26",
+			"client",
+			"clients",
+			"client_ids",
+			"name",
+			"text_field",
+			"\"\n",
+			"form_group_for",
+			"text_field",
+			"-",
+			"form_group for",
+			"name",
+			"client",
+			"client_params",
+			"post_params",
 			"')}\n",
 			"')\n",
 			"INFORMACIÓN"
@@ -355,8 +627,652 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "spec/features/campaigns_feature_spec.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										325,
+										326
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										307,
+										308
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spec/features/clients_feature_spec.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2247,
+								2247
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2250,
+										2253
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1492,
+										1494
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 756.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "app/controllers/campaigns_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										203,
+										204
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										187,
+										188
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/campaigns/index.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/clients/show.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								678,
+								678
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/dashboard/index.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -377,11 +1293,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.491834266803,
 			1.0
 		],
 		"rows":
@@ -409,8 +1332,444 @@
 		"selected_items":
 		[
 			[
+				"dashboi",
+				"app/views/dashboard/index.html.slim"
+			],
+			[
+				"show",
+				"app/views/clients/show.html.slim"
+			],
+			[
+				"inde",
+				"app/views/clients/index.html.slim"
+			],
+			[
+				"client",
+				"spec/features/clients_feature_spec.rb"
+			],
+			[
+				"index",
+				"app/views/campaigns/index.html.slim"
+			],
+			[
+				"sch",
+				"db/schema.rb"
+			],
+			[
+				"campai",
+				"app/controllers/campaigns_controller.rb"
+			],
+			[
+				"new",
+				"app/views/campaigns/new.html.slim"
+			],
+			[
+				"clientf",
+				"spec/features/clients_feature_spec.rb"
+			],
+			[
+				"clients",
+				"spec/factories/clients.rb"
+			],
+			[
+				"cam",
+				"spec/models/campaign_spec.rb"
+			],
+			[
+				"accounts",
+				"spec/factories/accounts.rb"
+			],
+			[
+				"campa",
+				"app/models/campaign.rb"
+			],
+			[
+				"users",
+				"spec/factories/users.rb"
+			],
+			[
+				"migratifi",
+				"db/migrate/20160704031657_fix_client_structure.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"hea",
+				"app/views/layouts/_header.html.slim"
+			],
+			[
+				"sho",
+				"app/views/campaigns/show.html.slim"
+			],
+			[
+				"cclients",
+				"app/controllers/clients_controller.rb"
+			],
+			[
+				"camp",
+				"app/controllers/campaigns_controller.rb"
+			],
+			[
+				"clientnew",
+				"app/views/clients/new.html.slim"
+			],
+			[
+				"campaignew",
+				"app/views/campaigns/new.html.slim"
+			],
+			[
+				"invi",
+				"spec/features/invitations_feature_spec.rb"
+			],
+			[
+				"clitesf",
+				"spec/features/clients_feature_spec.rb"
+			],
+			[
+				"usercr",
+				"spec/features/user_creates_campaign_spec.rb"
+			],
+			[
+				"campaigns",
+				"spec/factories/campaigns.rb"
+			],
+			[
+				"fix",
+				"db/migrate/20160704031657_fix_client_structure.rb"
+			],
+			[
+				"fixcm",
+				"db/migrate/20160704132955_fix_campaign_structure.rb"
+			],
+			[
+				"use",
+				"spec/features/user_creates_client_spec.rb"
+			],
+			[
+				"_he",
+				"app/views/layouts/_header.html.slim"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"user",
+				"spec/features/user_creates_client_spec.rb"
+			],
+			[
+				"help",
+				"app/helpers/layout_helper.rb"
+			],
+			[
+				"accoun",
+				"app/controllers/accounts_controller.rb"
+			],
+			[
+				"clientsc",
+				"app/controllers/clients_controller.rb"
+			],
+			[
 				"gem",
 				"Gemfile"
+			],
+			[
+				"devi",
+				"db/migrate/20160702015620_devise_create_users.rb"
+			],
+			[
+				"devis",
+				"db/migrate/20160703164321_devise_invitable_add_to_users.rb"
+			],
+			[
+				"fix_cl",
+				"db/migrate/20160704031657_fix_client_structure.rb"
+			],
+			[
+				"dash",
+				"app/views/dashboard/index.html.slim"
+			],
+			[
+				"spec/feat",
+				"spec/features/invitations_feature_spec.rb"
+			],
+			[
+				"acc",
+				"spec/features/account_creation_feature_spec.rb"
+			],
+			[
+				"userc",
+				"spec/features/user_creates_client_spec.rb"
+			],
+			[
+				"clie",
+				"spec/models/client_spec.rb"
+			],
+			[
+				"su",
+				"spec/features/subdomain_feature_spec.rb"
+			],
+			[
+				"a",
+				"config/application.rb"
+			],
+			[
+				"we",
+				"app/controllers/welcome_controller.rb"
+			],
+			[
+				"account",
+				"app/models/account.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"app",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"sub",
+				"spec/features/subdomain_feature_spec.rb"
+			],
+			[
+				"en",
+				"config/environment.rb"
+			],
+			[
+				"ap",
+				"config/initializers/apartment.rb"
+			],
+			[
+				"dev",
+				"config/locales/devise_invitable.en.yml"
+			],
+			[
+				"appl",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"edit",
+				"app/views/devise/invitations/edit.html.slim"
+			],
+			[
+				"rail",
+				"spec/rails_helper.rb"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				"env",
+				"config/environment.rb"
+			],
+			[
+				"ind",
+				"app/views/users/index.html.slim"
+			],
+			[
+				"inv",
+				"spec/features/invitations_feature_spec.rb"
+			],
+			[
+				"for",
+				"app/helpers/form_helper.rb"
+			],
+			[
+				"simple",
+				"config/initializers/simple_form.rb"
+			],
+			[
+				"layo",
+				"app/assets/stylesheets/layout.scss"
+			],
+			[
+				"heade",
+				"app/views/layouts/_header.html.slim"
+			],
+			[
+				"rails",
+				"spec/rails_helper.rb"
+			],
+			[
+				"acco",
+				"app/controllers/accounts_controller.rb"
+			],
+			[
+				"accountsc",
+				"app/controllers/accounts_controller.rb"
+			],
+			[
+				"accountc",
+				"spec/features/account_creation_feature_spec.rb"
+			],
+			[
+				"accou",
+				"spec/features/account_creation_feature_spec.rb"
+			],
+			[
+				"authe",
+				"spec/features/authentication_feature_spec.rb"
+			],
+			[
+				"applica",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"sign",
+				"spec/support/features/sign_in.rb"
+			],
+			[
+				"si",
+				"spec/support/features/sign_in.rb"
+			],
+			[
+				"au",
+				"spec/features/authentication_feature_spec.rb"
+			],
+			[
+				"head",
+				"app/views/layouts/_header.html.slim"
+			],
+			[
+				"application.h",
+				"app/views/layouts/application.html.slim"
+			],
+			[
+				"application.sc",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"form",
+				"app/helpers/form_helper.rb"
+			],
+			[
+				"migrati",
+				"db/migrate/20160702015620_devise_create_users.rb"
+			],
+			[
+				"accountsco",
+				"app/controllers/accounts_controller.rb"
+			],
+			[
+				"user_si",
+				"spec/features/user_signup_spec.rb"
+			],
+			[
+				"migrat",
+				"db/migrate/20160702015620_devise_create_users.rb"
+			],
+			[
+				"layou",
+				"app/assets/stylesheets/layout.css.scss"
+			],
+			[
+				"welcone",
+				"app/views/welcome/index.html.slim"
+			],
+			[
+				"g",
+				"Gemfile"
+			],
+			[
+				"application.htm",
+				"app/views/layouts/application.html.slim"
+			],
+			[
+				"appli",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"home",
+				"app/controllers/home_controller.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"rai",
+				"spec/rails_helper.rb"
+			],
+			[
+				"gua",
+				"Guardfile"
+			],
+			[
+				"spe",
+				"spec/spec_helper.rb"
+			],
+			[
+				"sp",
+				"spec/spec_helper.rb"
+			],
+			[
+				"ra",
+				"spec/rails_helper.rb"
+			],
+			[
+				"applicationh",
+				"app/views/layouts/application.html.slim"
+			],
+			[
+				"clien",
+				"spec/models/client_spec.rb"
+			],
+			[
+				"spech",
+				"spec/spec_helper.rb"
+			],
+			[
+				"cappli",
+				"config/application.rb"
+			],
+			[
+				".",
+				".rspec"
+			],
+			[
+				"clientc",
+				"app/controllers/clients_controller.rb"
+			],
+			[
+				"user_create",
+				"spec/features/user_creates_client_spec.rb"
+			],
+			[
+				"u",
+				"spec/features/user_creates_campaign_spec.rb"
+			],
+			[
+				"user_cre",
+				"spec/features/user_creates_campaign_spec.rb"
+			],
+			[
+				"sepe",
+				"spec/spec_helper.rb"
+			],
+			[
+				"s",
+				"app/views/campaigns/show.html.slim"
+			],
+			[
+				"devisec",
+				"db/migrate/20160702015620_devise_create_users.rb"
+			],
+			[
+				"views",
+				"app/views/layouts/application.html.slim"
+			],
+			[
+				".tra",
+				".travis.yml"
 			],
 			[
 				"projectsc",
@@ -429,48 +1788,12 @@
 				"app/views/projects/_start.html.haml"
 			],
 			[
-				"ge",
-				"Gemfile"
-			],
-			[
 				"applic",
 				"app/assets/javascripts/application.js"
 			],
 			[
-				"route",
-				"config/routes.rb"
-			],
-			[
-				"app",
-				"app/views/layouts/application.html.haml"
-			],
-			[
-				"use",
-				"app/models/user.rb"
-			],
-			[
-				"deve",
-				"config/environments/development.rb"
-			],
-			[
-				"new",
-				"app/views/posts/new.html.haml"
-			],
-			[
-				"rou",
-				"config/routes.rb"
-			],
-			[
-				"user",
-				"app/models/user.rb"
-			],
-			[
 				"sche",
 				"db/schema.rb"
-			],
-			[
-				"g",
-				"Gemfile"
 			],
 			[
 				"application_",
@@ -485,27 +1808,11 @@
 				"app/views/shared/_navbar.html.haml"
 			],
 			[
-				"rout",
-				"config/routes.rb"
-			],
-			[
-				"inde",
-				"config/locales/views/home/index.es.yml"
-			],
-			[
-				"edit",
-				"app/views/devise/registrations/edit.html.haml"
-			],
-			[
 				"hi",
 				"app/views/home/_highlights.html.haml"
 			],
 			[
 				"he",
-				"app/views/home/_header.html.haml"
-			],
-			[
-				"heade",
 				"app/views/home/_header.html.haml"
 			],
 			[
@@ -523,10 +1830,6 @@
 			[
 				"main",
 				"app/assets/stylesheets/main.scss"
-			],
-			[
-				"sho",
-				"app/views/docs/show.html.haml"
 			]
 		],
 		"width": 0.0
@@ -556,8 +1859,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 345.0,
+	"side_bar_visible": false,
+	"side_bar_width": 405.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

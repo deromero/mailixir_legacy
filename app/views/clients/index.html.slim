@@ -13,6 +13,7 @@
             th Contact Name
             th Contact Email
             th Country Code
+            th
         tbody
           - @clients.each do |client|
             tr
@@ -21,4 +22,5 @@
               td #{client.contact_name}
               td #{client.contact_email}
               td #{client.country_code}
-
+              td
+                = link_to "Details", client_path(client)
