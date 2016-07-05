@@ -1,0 +1,17 @@
+.navbar.navbar-dual.navbar-inverse.navbar-fixed-top.headroom.animated
+  .container
+    .navbar-header
+      /! Button for smallest screens
+      button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button"
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand href="#{root_path}"
+        = image_tag image_path('logo.png'), alt: 'Mailixir'
+    .navbar-collapse.collapse
+      ul.nav.navbar-nav.pull-right
+        li
+          a href="signin.html"  Sign in
+        li
+          = link_to "Sign up FREE!", new_account_path, class: 'btn btn-rounded'
+

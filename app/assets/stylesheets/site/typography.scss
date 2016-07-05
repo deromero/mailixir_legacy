@@ -1,0 +1,166 @@
+body {
+  color: #333333;
+  background: #ffffff;
+  font-family: helvetica, "Helvetica Neue", "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Open sans", helvetica, "Helvetica Neue", arial;
+  color: #454545;
+  margin: 30px 0 15px 0;
+  line-height: 1.1;
+}
+
+h1, .h1 {
+  font-size: 52px;
+}
+
+h2, .h2 {
+  font-size: 36px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+  margin: 20px 0 10px;
+}
+
+h4, .h4 {
+  font-size: 22px;
+  margin: 20px 0 10px;
+  line-height: 30px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 480px) {
+  h1, .h1 {
+    font-size: 42px;
+  }
+  h2, .h2 {
+    font-size: 26px;
+  }
+  h3, .h3 {
+    font-size: 22px;
+    margin: 20px 0 10px;
+  }
+  h4, .h4 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    line-height: 27px;
+  }
+  h5, .h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.title {
+  font-family: Raleway, "Open sans", helvetica, arial;
+  color: #454545;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 0 0 20px 0;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+blockquote {
+  font-style: italic;
+  font-family: Georgia;
+  color: #999999;
+  margin: 30px 0 30px;
+}
+
+label {
+  color: #777;
+}
+
+.thin {
+  font-weight: 300;
+}
+
+.text-muted {
+  color: #999999;
+}
+
+.breadcrumb {
+  background: none;
+  padding: 0;
+  margin: 30px 0 0px 0;
+}
+
+ul.list-spaces li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #da4453;
+  &:hover {
+    color: #e72b3e;
+  }
+}
+
+hr {
+  border-top: 1px solid #ddd;
+}
+
+.jumbotron {
+  hr {
+    border-top: 1px solid #d3d3d3;
+  }
+  &.invert hr {
+    border-top: 1px solid #666;
+  }
+}
+
+.color-action {
+  color: #da4453;
+}
+
+.color-accent {
+  color: #3a89c9;
+}
+
+.color-default {
+  color: #333333;
+}
+
+/* social profile icons */
+
+.social-icons {
+  list-style: none;
+  padding-left: 0;
+  li {
+    display: inline;
+  }
+  a {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    width: 32px;
+    height: 32px;
+    background: #da4453;
+    border: 2px solid #da4453;
+    border-radius: 50%;
+    text-align: center;
+  }
+  i {
+    color: white;
+    line-height: 29px;
+  }
+  a {
+    &:hover, &.active {
+      background: #ffffff;
+    }
+    &:hover i, &.active i {
+      color: #da4453;
+    }
+  }
+}

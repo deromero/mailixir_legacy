@@ -1,11 +1,23 @@
-h2
-  | Forgot your password?
-= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f|
-  = devise_error_messages!
-  .field
-    = f.label :email
-    br
-    = f.email_field :email, autofocus: true
-  .actions
-    = f.submit "Send me reset password instructions"
-= render "devise/shared/links"
+section.section.section-signin
+  p.text-center
+    a href="#{root_path}"
+      = image_tag image_path('logo.png'), alt: 'Mailixir'
+  .panel.panel-default
+    .panel-body role="tabpanel"
+      .tab-content
+        #do-signin.tab-pane.active role="tabpanel"
+          h3.text-center Forgot your password?
+          p.text-center
+            | Please use the form below to recover.
+          = simple_form_for(resource, as: resource_name,
+                                      url: password_path(resource_name),
+                                      html: { method: :post }) do |f|
+            = f.input :email, label: false do
+              .input-group
+                = f.input_field :email, autofocus: true, class: 'form-control input-lg', placeholder: 'Email'
+                span.input-group-addon.glyphicon.glyphicon-envelope
+
+            = f.button :submit, "Send me reset  instructions", class: 'btn-primary btn-block btn-lg'
+          br
+          = flash_messages layout_flash: false
+          = render "devise/shared/links"

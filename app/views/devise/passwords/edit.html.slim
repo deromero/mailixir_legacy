@@ -1,22 +1,33 @@
-h2
-  | Change your password
-= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f|
-  = devise_error_messages!
-  = f.hidden_field :reset_password_token
-  .field
-    = f.label :password, "New password"
-    br
-    - if @minimum_password_length
-      em
-        | (
-        = @minimum_password_length
-        |  characters minimum)
+section.section.section-signin
+  p.text-center
+    a href="#{root_path}"
+      = image_tag image_path('logo.png'), alt: 'Mailixir'
+  .panel.panel-default
+    .panel-body role="tabpanel"
+      .tab-content
+        #do-signin.tab-pane.active role="tabpanel"
+          h3.text-center Change your password
+          p.text-center
+            | Please use the form below to createt a new password.
+
+          = simple_form_for(resource, as: resource_name,
+                            url: password_path(resource_name),
+                            html: { method: :put }) do |f|
+            = f.hidden_field :reset_password_token
+            = f.input :password, label: false do
+              .input-group
+                = f.input_field :password, autofocus: true, autocomplete: "off", class: 'form-control input-lg', placeholder: 'Password'
+                span.input-group-addon.glyphicon.glyphicon-lock
+
+
+            = f.input :password_confirmation, label: false do
+              .input-group
+                = f.input_field :password_confirmation, autofocus: true, autocomplete: "off", class: 'form-control input-lg', placeholder: 'Confirm new password'
+                span.input-group-addon.glyphicon.glyphicon-lock
+
+
+            = f.button :submit, "Change my password", class: 'btn-primary btn-block'
+
       br
-    = f.password_field :password, autofocus: true, autocomplete: "off"
-  .field
-    = f.label :password_confirmation, "Confirm new password"
-    br
-    = f.password_field :password_confirmation, autocomplete: "off"
-  .actions
-    = f.submit "Change my password"
-= render "devise/shared/links"
+      = flash_messages layout_flash: false
+      = render "devise/shared/links"

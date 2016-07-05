@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    meta content=("text/html; charset=UTF-8") http-equiv="Content-Type" /
+    title Mailixir
+    = csrf_meta_tags
+    link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,500" rel="stylesheet"
+    = stylesheet_link_tag 'sign_in', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  body.page-signin
+    = flash_messages if show_layout_flash?
+    = yield

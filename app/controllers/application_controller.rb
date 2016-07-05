@@ -4,9 +4,25 @@ class ApplicationController < ActionController::Base
   before_action :load_schema, :authenticate_user!, :set_mailer_host
   before_action :configure_permitted_parameters, if: :devise_controller?
 
+  layout :layout_by_resource
+
+
+
 protected
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:accept_invitation, keys: [:name])
+  end
+
+  def layout_by_resource
+    if devise_controller?
+      "sign_in"
+    elsif controller_name == 'welcome'
+      "site"
+    elsif controller_name == 'accounts'
+      "site_simple"
+    else
+      "application"
+    end
   end
 
 private

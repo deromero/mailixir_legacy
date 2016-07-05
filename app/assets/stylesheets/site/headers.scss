@@ -1,0 +1,229 @@
+/* Home Header */
+
+.head {
+  min-height: 520px;
+  color: white;
+  font-weight: 300;
+}
+
+@media (max-width: 480px) {
+  .head {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .head {
+    min-height: 420px;
+  }
+}
+
+/* Home header - default */
+
+.head-default {
+  background: $head_background url(bg_header.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  .lead {
+    font-family: Raleway, "Open sans", helvetica, "Helvetica Neue", arial;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 220px 0 6px 0;
+    color: #ffffff;
+    line-height: 1.15em;
+  }
+  .tagline {
+    font-family: helvetica, "Helvetica Neue", "Open Sans", Arial, sans-serif;
+    font-weight: normal;
+    margin-bottom: 25px;
+    font-size: 15px;
+    opacity: .85;
+    a {
+      color: #fff;
+    }
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .btn-default {
+    text-shadow: none;
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.85);
+    &:hover, &:focus, &:active, &.active {
+      color: $navy_blue;
+      background: $white;
+      border-color: #fff;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .head-default {
+    padding-bottom: 20px;
+    .lead {
+      font-size: 22px;
+      margin: 130px 0 20px 0;
+    }
+    .btn {
+      font-size: 14px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+/* Header Account header */
+.head-account {
+  background: $head_background ;
+  background-size: cover;
+  background-attachment: fixed;
+  .lead {
+    font-family: Raleway, "Open sans", helvetica, "Helvetica Neue", arial;
+    font-weight: bold;
+    font-size: 45px;
+    /*margin: 220px 0 6px 0;*/
+    color: #ffffff;
+    line-height: 1.15em;
+  }
+  .tagline {
+    font-family: helvetica, "Helvetica Neue", "Open Sans", Arial, sans-serif;
+    font-weight: normal;
+    margin-bottom: 25px;
+    font-size: 15px;
+    opacity: .85;
+    a {
+      color: #fff;
+    }
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .btn-account {
+    text-shadow: none;
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.85);
+    &:hover, &:focus, &:active, &.active {
+      color: $navy_blue;
+      background: $white;
+      border-color: #fff;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .head-account {
+    padding-bottom: 20px;
+    .lead {
+      font-size: 22px;
+      margin: 130px 0 20px 0;
+    }
+    .btn {
+      font-size: 14px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+/* Secondary pages header */
+
+.head-inner {
+  padding: 140px 0 80px 0;
+  min-height: 350px;
+  font-family: Raleway, "Open sans", helvetica, "Helvetica Neue", arial;
+  background: $head_background;
+  color: #ffffff;
+  background-size: cover;
+  .page-title {
+    font-family: Raleway, "Open sans", helvetica, "Helvetica Neue", arial;
+    color: #ffffff;
+    margin: 0px 0 10px 0;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1.25em;
+    text-transform: uppercase;
+  }
+  .page-lead {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.25em;
+    font-size: 25px;
+    color: #ffffff;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 480px) {
+  .head-inner {
+    padding: 120px 0 60px 0;
+    min-height: inherit;
+    .page-title {
+      font-size: 30px;
+    }
+    .page-lead {
+      font-size: 18px;
+    }
+  }
+}
+
+/* Simple page title */
+
+.page-title {
+  font-family: Raleway, "Open sans", helvetica, arial;
+  color: #151515;
+  margin: 120px 0 10px 0;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.1em;
+  letter-spacing: 2px;
+  span {
+    display: block;
+    font-family: helvetica, "Helvetica Neue", "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.3em;
+    font-weight: 400;
+    opacity: .45;
+    margin-top: 5px;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 48px;
+  }
+}
+
+/* Autohide navbar */
+
+.slideUp {
+  top: -100px;
+}
+
+.headroom {
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+/* Page-specific headers */
+
+.page-services .head-inner {
+  background: #999999 url(../images/bg_header_services1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.page .head-inner {
+  background: $head_background url(../images/bg_header.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.page-blog .head-inner, .page-single .head-inner {
+  background: $head_background url(../images/bg_header_blog.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
