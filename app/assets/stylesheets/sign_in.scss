@@ -1,9 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-@import "app/variables";
-@import "app/buttons";
-@import "app/typography";
-@import "app/helpers";
-@import "app/sections";
-@import "app/errors";
+@import "sign_in/variables";
+@import "sign_in/buttons";
+@import "sign_in/typography";
+@import "sign_in/helpers";
+@import "sign_in/sections";
+@import "sign_in/errors";

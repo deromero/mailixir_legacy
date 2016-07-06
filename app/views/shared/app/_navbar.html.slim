@@ -1,0 +1,28 @@
+nav.navbar.navbar-default.navbar-fixed-top
+  .navbar-header
+    /! toggler
+    button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button"
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+
+    a.navbar-brand href="#{root_path}"
+      = image_tag image_path('logo-sm.png'), alt: 'Mailixir'
+
+  .navbar-collapse.collapse
+    ul.nav.navbar-nav
+      - if user_signed_in?
+        li
+          = link_to "Users", users_path
+        li
+          = link_to "Clients", clients_path
+        li
+          = link_to "Campaigns", campaigns_path
+
+      - if user_signed_in?
+        li
+          = link_to "Sign out", destroy_user_session_path, method: :delete, class: 'btn btn-default navbar.btn'
+      - else
+        li
+          = link_to "Sign in", new_user_session_path, class: 'btn btn-default navbar.btn'
+
