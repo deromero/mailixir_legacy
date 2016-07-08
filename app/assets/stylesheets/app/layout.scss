@@ -1,3 +1,12 @@
 .container-fluid{
   margin-top: 55px;
 }
+
+@media (min-width:768px) {
+  .fixed-sidebar{
+    width:311px;
+  }
+  .fluid-column {
+    width:calc(100% - 311px);
+  }
+}

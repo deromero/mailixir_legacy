@@ -27,8 +27,6 @@ module Mailixir
     config.middleware.use Apartment::Elevators::Subdomain
 
     config.generators do |g|
-
-
       g.template_engine :slim
 
       g.test_framework :rspec,
@@ -40,5 +38,8 @@ module Mailixir
         :request_specs => true
       g.fixture_replacement :factory_girl, :dir => "spec/factories"
     end
+
+    config.assets.paths << Rails.root.join('vendor','assets','components')
+
   end
 end
