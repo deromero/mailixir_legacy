@@ -22,5 +22,8 @@ Rails.application.routes.draw do
   constraints(SubdomainBlankConstraint) do
     root 'welcome#index'
     resources :accounts, only: [:new, :create, :show]
+
+    get '/signin', to: 'accounts#signin', as: 'sign_in'
+    post '/search_account', to: 'accounts#search', as: 'search_account'
   end
 end

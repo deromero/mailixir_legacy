@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"red",
+				"redirect_to"
+			],
+			[
+				"sub",
+				"submit	(index.html.slim)"
+			],
+			[
+				"re",
+				"req	require \"..\""
+			],
+			[
+				"in",
+				"include	(account_sign_in_feature_spec.rb)"
+			],
+			[
+				"lik",
+				"link_to"
+			],
+			[
+				"cli",
+				"cli	click_link \"link_text\""
+			],
+			[
+				"cont",
+				"container-fluid	(application.html.slim)"
+			],
+			[
 				"bt",
 				"btn-block	(new.html.slim)"
 			],
@@ -128,20 +156,12 @@
 				"downcase_subdomain"
 			],
 			[
-				"sub",
-				"subdomain"
-			],
-			[
 				"allow",
 				"allow_value"
 			],
 			[
 				"new",
 				"new_user_session_path	(sign_in.rb)"
-			],
-			[
-				"cli",
-				"click_on	(user_signup_spec.rb)"
 			],
 			[
 				"desc",
@@ -244,34 +264,77 @@
 	"buffers":
 	[
 		{
-			"file": "app/assets/stylesheets/app/navigation.scss",
+			"file": "spec/features/account_sign_in_feature_spec.rb",
 			"settings":
 			{
-				"buffer_size": 5084,
+				"buffer_size": 548,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/assets/stylesheets/application.scss",
+			"file": "app/models/account.rb",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 613,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/shared/app/_navbar.html.slim",
+			"file": "app/models/account_search.rb",
 			"settings":
 			{
-				"buffer_size": 865,
+				"buffer_size": 121,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/assets/stylesheets/site/navigation.scss",
+			"file": "spec/factories/users.rb",
 			"settings":
 			{
-				"buffer_size": 5079,
+				"buffer_size": 188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/campaigns/new.html.slim",
+			"settings":
+			{
+				"buffer_size": 400,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/features/clients_feature_spec.rb",
+			"settings":
+			{
+				"buffer_size": 2258,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/accounts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1060,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "header.head-simple\n  .container\n    h1.page-title.text-center\n      |Welcome back\n      span Use te form below to access your account\n\nsection.section.jumbotron\n  .container\n    .row\n      .col-md-6.col-md-offset-3.panel-panel-default\n          .panelbody\n                        = flash_messages layout_flash: false\n            = simple_form_for @search_account,\n                              url: search_account_path,\n                              html: { method: :post } do |f|\n              =f.input \"subdomain\"\n              =f.button :submit, \"Log in\", class: 'btn-primary'\n",
+			"file": "app/views/accounts/signin.html.slim",
+			"file_size": 568,
+			"file_write_time": 131123471310217191,
+			"settings":
+			{
+				"buffer_size": 580,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 781,
 				"line_ending": "Unix"
 			}
 		}
@@ -284,19 +347,27 @@
 	"command_palette":
 	{
 		"height": 384.0,
-		"last_filter": "",
+		"last_filter": "ryb",
 		"selected_items":
 		[
+			[
+				"ryb",
+				"Set Syntax: Ruby"
+			],
 			[
 				"rena",
 				"File: Rename"
 			],
 			[
-				"comm",
-				"Toggle Comment"
+				"ins",
+				"Package Control: Install Package"
 			],
 			[
 				"to",
+				"Toggle Comment"
+			],
+			[
+				"comm",
 				"Toggle Comment"
 			],
 			[
@@ -338,10 +409,6 @@
 			[
 				"rsp",
 				"Set Syntax: RSpec"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"g",
@@ -427,30 +494,41 @@
 	[
 		"/home/javier/apps/mailixir",
 		"/home/javier/apps/mailixir/app",
-		"/home/javier/apps/mailixir/app/assets",
-		"/home/javier/apps/mailixir/app/assets/stylesheets",
-		"/home/javier/apps/mailixir/app/assets/stylesheets/app",
+		"/home/javier/apps/mailixir/app/models",
+		"/home/javier/apps/mailixir/app/models/concerns",
 		"/home/javier/apps/mailixir/app/views",
-		"/home/javier/apps/mailixir/app/views/devise/sessions",
-		"/home/javier/apps/mailixir/app/views/layouts",
-		"/home/javier/apps/mailixir/app/views/shared",
-		"/home/javier/apps/mailixir/app/views/shared/app",
-		"/home/javier/apps/mailixir/app/views/welcome/partials",
-		"/home/javier/apps/mailixir/config/environments",
-		"/home/javier/apps/mailixir/config/initializers",
+		"/home/javier/apps/mailixir/app/views/accounts",
+		"/home/javier/apps/mailixir/spec",
+		"/home/javier/apps/mailixir/spec/controllers",
+		"/home/javier/apps/mailixir/spec/factories",
 		"/home/javier/apps/mailixir/spec/features"
 	],
 	"file_history":
 	[
+		"/home/javier/apps/mailixir/app/views/devise/invitations/new.html.slim",
+		"/home/javier/apps/mailixir/app/views/accounts/index.html.slim",
+		"/home/javier/apps/mailixir/spec/features/subdomain_feature_spec.rb",
+		"/home/javier/apps/mailixir/app/views/devise/sessions/new.html.slim",
+		"/home/javier/apps/mailixir/app/views/shared/site/_navbar_simple.html.slim",
+		"/home/javier/apps/mailixir/config/routes.rb",
+		"/home/javier/apps/mailixir/app/views/shared/site/_navbar.html.slim",
+		"/home/javier/apps/mailixir/spec/models/account_spec.rb",
+		"/home/javier/apps/mailixir/spec/features/account_creation_feature_spec.rb",
+		"/home/javier/apps/mailixir/spec/models/account_search_spec.rb",
+		"/home/javier/apps/mailixir/app/views/welcome/index.html.slim",
+		"/home/javier/apps/mailixir/app/models/account.rb",
+		"/home/javier/apps/mailixir/app/assets/stylesheets/app/navigation.scss",
+		"/home/javier/apps/mailixir/app/views/shared/app/_navbar.html.slim",
+		"/home/javier/apps/mailixir/app/assets/stylesheets/app/variables.scss",
 		"/home/javier/apps/mailixir/app/views/layouts/application.html.slim",
-		"/home/javier/apps/mailixir/app/assets/stylesheets/sign_in.scss",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/application.scss",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/app/layout.scss",
+		"/home/javier/apps/mailixir/app/views/layouts/site.html.slim",
+		"/home/javier/apps/mailixir/app/assets/stylesheets/site/navigation.scss",
+		"/home/javier/apps/mailixir/app/assets/stylesheets/sign_in.scss",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/app/notices.scss",
-		"/home/javier/apps/mailixir/app/views/shared/site/_navbar.html.slim",
 		"/home/javier/apps/mailixir/config/initializers/assets.rb",
 		"/home/javier/apps/mailixir/app/views/devise/passwords/new.html.slim",
-		"/home/javier/apps/mailixir/app/views/devise/sessions/new.html.slim",
 		"/home/javier/apps/mailixir/app/views/accounts/new.html.slim",
 		"/home/javier/apps/mailixir/config/application.rb",
 		"/home/javier/apps/mailixir/app/views/devise/passwords/edit.html.slim",
@@ -459,21 +537,17 @@
 		"/home/javier/apps/mailixir/app/controllers/welcome_controller.rb",
 		"/home/javier/apps/mailixir/app/controllers/accounts_controller.rb",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/site/sections.scss",
-		"/home/javier/apps/mailixir/app/views/shared/site/_navbar_simple.html.slim",
 		"/home/javier/apps/mailixir/app/views/layouts/sign_in.html.slim",
 		"/home/javier/apps/mailixir/app/controllers/application_controller.rb",
 		"/home/javier/apps/mailixir/app/views/layouts/_navbar.html.slim",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/layout.scss",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/site/headers.scss",
-		"/home/javier/apps/mailixir/app/assets/stylesheets/site/navigation.scss",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/site/helpers.scss",
 		"/home/javier/apps/mailixir/app/views/layouts/site_simple.html.slim",
 		"/home/javier/apps/mailixir/app/views/welcome/partials/_index_header.html.slim",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/site/variables.scss",
-		"/home/javier/apps/mailixir/app/views/welcome/index.html.slim",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/site/buttons.scss",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/site/typography.scss",
-		"/home/javier/apps/mailixir/app/views/layouts/site.html.slim",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/site.scss",
 		"/home/javier/apps/mailixir/app/views/shared/site/_footer.html.slim",
 		"/home/javier/apps/mailixir/app/views/welcome/partials/_get_started.html.slim",
@@ -502,21 +576,16 @@
 		"/home/javier/apps/mailixir/app/controllers/clients_controller.rb",
 		"/home/javier/apps/mailixir/spec/features/invitations_feature_spec.rb",
 		"/home/javier/apps/mailixir/app/views/campaigns/show.html.slim",
-		"/home/javier/apps/mailixir/config/routes.rb",
 		"/home/javier/apps/mailixir/app/views/clients/new.html.slim",
 		"/home/javier/apps/mailixir/db/migrate/20160701230936_create_campaigns.rb",
 		"/home/javier/apps/mailixir/app/views/users/index.html.slim",
 		"/home/javier/apps/mailixir/spec/features/user_creates_client_spec.rb",
-		"/home/javier/apps/mailixir/spec/features/account_creation_feature_spec.rb",
 		"/home/javier/apps/mailixir/app/helpers/layout_helper.rb",
-		"/home/javier/apps/mailixir/app/views/devise/invitations/new.html.slim",
 		"/home/javier/apps/mailixir/Gemfile",
 		"/home/javier/apps/mailixir/db/migrate/20160702015620_devise_create_users.rb",
 		"/home/javier/apps/mailixir/db/migrate/20160703164321_devise_invitable_add_to_users.rb",
 		"/home/javier/apps/mailixir/db/migrate/20160702012619_create_clients.rb",
-		"/home/javier/apps/mailixir/spec/features/subdomain_feature_spec.rb",
 		"/home/javier/apps/mailixir/config/initializers/apartment.rb",
-		"/home/javier/apps/mailixir/app/models/account.rb",
 		"/home/javier/apps/mailixir/config/environment.rb",
 		"/home/javier/apps/mailixir/config/locales/devise.en.yml",
 		"/home/javier/apps/mailixir/app/helpers/user_helper.rb",
@@ -537,7 +606,6 @@
 		"/home/javier/apps/mailixir/spec/support/macros.rb",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/signin.scss",
 		"/home/javier/apps/mailixir/app/assets/stylesheets/layout.css.scss",
-		"/home/javier/apps/mailixir/spec/models/account_spec.rb",
 		"/home/javier/apps/mailixir/spec/models/user_spec.rb",
 		"/home/javier/apps/mailixir/app/models/user.rb",
 		"/home/javier/apps/mailixir/spec/features/user_signup_spec.rb",
@@ -564,12 +632,7 @@
 		"/home/javier/apps/ecuadorsolidario/app/assets/javascripts/templates/categories/index.hbs",
 		"/home/javier/apps/ecuadorsolidario/app/assets/javascripts/templates/categories/index.slimbars",
 		"/home/javier/apps/ecuadorsolidario/app/assets/javascripts/templates/categories/index.hamlbars",
-		"/home/javier/apps/ecuadorsolidario/app/views/shared/_navbar.html.haml",
-		"/home/javier/apps/ecuadorsolidario/config/application.rb",
-		"/home/javier/apps/ecuadorsolidario/Gemfile",
-		"/home/javier/apps/ecuadorsolidario/app/views/layouts/application.html.slim",
-		"/home/javier/apps/ecuadorsolidario/app/views/layouts/devise.html.haml",
-		"/home/javier/apps/ecuadorsolidario/app/views/layouts/explore.html.haml"
+		"/home/javier/apps/ecuadorsolidario/app/views/shared/_navbar.html.haml"
 	],
 	"find":
 	{
@@ -587,6 +650,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"da4453",
 			"app",
 			"default",
 			"bc2534",
@@ -639,23 +703,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/assets/stylesheets/app/navigation.scss",
+					"file": "spec/features/account_sign_in_feature_spec.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5084,
+						"buffer_size": 548,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								198,
+								198
 							]
 						],
 						"settings":
 						{
+							"_anf_new": "",
+							"auto_complete": false,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -663,16 +729,16 @@
 								{
 									"1":
 									[
-										2032,
-										2033
+										195,
+										198
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										29,
-										30
+										152,
+										154
 									]
 								},
 								"unmatched":
@@ -696,259 +762,49 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Agila Oceanic Next (SL).tmTheme",
-							"history_list_is_closing": true,
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/assets/stylesheets/application.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 149,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								149,
-								149
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Agila Oceanic Next (SL).tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "app/views/shared/app/_navbar.html.slim",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 865,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								406,
-								406
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/RSpec/RSpec.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -958,20 +814,430 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/assets/stylesheets/site/navigation.scss",
+					"buffer": 1,
+					"file": "app/models/account.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5079,
+						"buffer_size": 613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								548,
-								548
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/account_search.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Agila Oceanic Next (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "spec/factories/users.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Agila Oceanic Next (SL).tmTheme",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/campaigns/new.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "spec/features/clients_feature_spec.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
 							]
 						],
 						"settings":
@@ -983,16 +1249,16 @@
 								{
 									"1":
 									[
-										2029,
-										2030
+										2254,
+										2257
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										26,
-										27
+										49,
+										51
 									]
 								},
 								"unmatched":
@@ -1001,46 +1267,119 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Agila Oceanic Next (SL).tmTheme",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controllers/accounts_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								798,
+								798
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										890,
+										893
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										660,
+										662
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1051,22 +1390,391 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content"
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Agila Oceanic Next (SL).tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"history_list_is_closing": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4248.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controllers/accounts_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								783
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										768,
+										769
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										751,
+										752
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Agila Oceanic Next (SL).tmTheme",
+							"history_list_is_closing": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/accounts/signin.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								580
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Agila Oceanic Next (SL).tmTheme",
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								697,
+								697
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										697,
+										698
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										689,
+										690
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1128,20 +1836,108 @@
 		"selected_items":
 		[
 			[
-				"app",
-				"app/assets/stylesheets/application.scss"
+				"new",
+				"app/views/campaigns/new.html.slim"
+			],
+			[
+				"a",
+				"app/models/account.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"_na",
+				"app/views/shared/site/_navbar_simple.html.slim"
+			],
+			[
+				"navb",
+				"app/views/shared/site/_navbar_simple.html.slim"
 			],
 			[
 				"nav",
-				"app/assets/stylesheets/site/navigation.scss"
+				"app/views/shared/site/_navbar.html.slim"
+			],
+			[
+				"navbar",
+				"app/views/shared/site/_navbar.html.slim"
+			],
+			[
+				"na",
+				"app/views/shared/site/_navbar_simple.html.slim"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"",
+				"spec/features/clients_feature_spec.rb"
+			],
+			[
+				"accountsco",
+				"app/controllers/accounts_controller.rb"
+			],
+			[
+				"navba",
+				"app/views/shared/site/_navbar.html.slim"
+			],
+			[
+				"navbars",
+				"app/views/shared/site/_navbar_simple.html.slim"
+			],
+			[
+				"invinew",
+				"app/views/devise/invitations/new.html.slim"
+			],
+			[
+				"accountco",
+				"app/controllers/accounts_controller.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"acc",
+				"spec/models/account_spec.rb"
+			],
+			[
+				"welcin",
+				"app/views/welcome/index.html.slim"
+			],
+			[
+				"sub",
+				"spec/features/subdomain_feature_spec.rb"
+			],
+			[
+				"accou",
+				"app/models/account.rb"
+			],
+			[
+				"client",
+				"spec/features/clients_feature_spec.rb"
+			],
+			[
+				"vari",
+				"app/assets/stylesheets/app/variables.scss"
+			],
+			[
+				"site",
+				"app/views/layouts/site.html.slim"
+			],
+			[
+				"layout",
+				"app/assets/stylesheets/app/layout.scss"
 			],
 			[
 				"application.h",
 				"app/views/layouts/application.html.slim"
 			],
 			[
-				"new",
-				"app/views/accounts/new.html.slim"
+				"app",
+				"app/assets/stylesheets/application.scss"
 			],
 			[
 				"passwed",
@@ -1164,10 +1960,6 @@
 				"app/views/layouts/sign_in.html.slim"
 			],
 			[
-				"accou",
-				"app/controllers/accounts_controller.rb"
-			],
-			[
 				"we",
 				"app/controllers/welcome_controller.rb"
 			],
@@ -1182,14 +1974,6 @@
 			[
 				"hea",
 				"app/views/layouts/_header.html.slim"
-			],
-			[
-				"site",
-				"app/views/layouts/site.html.slim"
-			],
-			[
-				"vari",
-				"app/assets/stylesheets/site/variables.scss"
 			],
 			[
 				"navi",
@@ -1220,10 +2004,6 @@
 				"app/assets/stylesheets/site/buttons.scss"
 			],
 			[
-				"_na",
-				"app/views/shared/site/_navbar.html.slim"
-			],
-			[
 				"index",
 				"app/views/welcome/index.html.slim"
 			],
@@ -1250,10 +2030,6 @@
 			[
 				"inde",
 				"app/views/clients/index.html.slim"
-			],
-			[
-				"client",
-				"spec/features/clients_feature_spec.rb"
 			],
 			[
 				"sch",
@@ -1290,10 +2066,6 @@
 			[
 				"migratifi",
 				"db/migrate/20160704031657_fix_client_structure.rb"
-			],
-			[
-				"routes",
-				"config/routes.rb"
 			],
 			[
 				"sho",
@@ -1348,10 +2120,6 @@
 				"app/views/layouts/_header.html.slim"
 			],
 			[
-				"rou",
-				"config/routes.rb"
-			],
-			[
 				"user",
 				"spec/features/user_creates_client_spec.rb"
 			],
@@ -1392,10 +2160,6 @@
 				"spec/features/invitations_feature_spec.rb"
 			],
 			[
-				"acc",
-				"spec/features/account_creation_feature_spec.rb"
-			],
-			[
 				"userc",
 				"spec/features/user_creates_client_spec.rb"
 			],
@@ -1408,20 +2172,12 @@
 				"spec/features/subdomain_feature_spec.rb"
 			],
 			[
-				"a",
-				"config/application.rb"
-			],
-			[
 				"account",
 				"app/models/account.rb"
 			],
 			[
 				"rout",
 				"config/routes.rb"
-			],
-			[
-				"sub",
-				"spec/features/subdomain_feature_spec.rb"
 			],
 			[
 				"en",
@@ -1528,10 +2284,6 @@
 				"db/migrate/20160702015620_devise_create_users.rb"
 			],
 			[
-				"accountsco",
-				"app/controllers/accounts_controller.rb"
-			],
-			[
 				"user_si",
 				"spec/features/user_signup_spec.rb"
 			],
@@ -1568,10 +2320,6 @@
 				"app/controllers/home_controller.rb"
 			],
 			[
-				"route",
-				"config/routes.rb"
-			],
-			[
 				"rai",
 				"spec/rails_helper.rb"
 			],
@@ -1598,46 +2346,6 @@
 			[
 				"clien",
 				"spec/models/client_spec.rb"
-			],
-			[
-				"spech",
-				"spec/spec_helper.rb"
-			],
-			[
-				"cappli",
-				"config/application.rb"
-			],
-			[
-				".",
-				".rspec"
-			],
-			[
-				"clientc",
-				"app/controllers/clients_controller.rb"
-			],
-			[
-				"user_create",
-				"spec/features/user_creates_client_spec.rb"
-			],
-			[
-				"u",
-				"spec/features/user_creates_campaign_spec.rb"
-			],
-			[
-				"user_cre",
-				"spec/features/user_creates_campaign_spec.rb"
-			],
-			[
-				"sepe",
-				"spec/spec_helper.rb"
-			],
-			[
-				"s",
-				"app/views/campaigns/show.html.slim"
-			],
-			[
-				"devisec",
-				"db/migrate/20160702015620_devise_create_users.rb"
 			]
 		],
 		"width": 0.0
@@ -1660,7 +2368,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

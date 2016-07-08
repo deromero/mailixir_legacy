@@ -38,7 +38,9 @@ private
   end
 
   def current_account
-    @current_account ||= Account.find_by(subdomain: request.subdomain)
+    if(Account.exists?(subdomain: request.subdomain))
+      @current_account = Account.find_by(subdomain: request.subdomain)
+    end
   end
   helper_method :current_account
 

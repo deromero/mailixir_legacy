@@ -1,0 +1,21 @@
+header.head-simple
+  .container
+    h1.page-title.text-center
+      |Welcome back
+      span Use te form below to access your account
+
+section.section.jumbotron
+  .container
+    .row
+      .col-md-6.col-md-offset-3.panel-panel-default
+          .panelbody
+            = flash_messages layout_flash: false
+            = simple_form_for @search_account,
+                              url: search_account_path,
+                              html: { method: :post } do |f|
+              = f.input :subdomain do
+                .input-group
+                  = f.input_field :subdomain, class: 'form-control'
+                  span.input-group-addon mailixir.dev
+
+              =f.button :submit, "Log in", class: 'btn-primary'
