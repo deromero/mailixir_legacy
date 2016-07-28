@@ -1,0 +1,11 @@
+- if @campaign.is_editable?
+  .btn-group
+    - if !@campaign.has_content?
+      = link_to "Define Content", new_mail_content_path(:campaign => @campaign), class: 'btn btn-primary'
+    - else
+      - if !@campaign.has_recipients?
+        = link_to "Define Recipients", new_recipient_path(:campaign => @campaign), class: 'btn btn-primary'
+      - else
+        - if !@campaign.has_schedule?
+          = link_to "Schedule & Send", schedule_campaign_path(:campaign => @campaign), class: 'btn btn-primary'
+

@@ -1,0 +1,22 @@
+.col-md-12
+  h2 Subscription Lists
+  div
+    = link_to "New Subscription List", new_subscription_list_path(:client=>@client), class: 'btn btn-primary'
+  br /
+  .panel.panel-default
+    .panel-body
+      table.table.table-stripped#subscriptions
+        thead
+          tr
+            th ID
+            th Name
+            th Type
+            th
+        tbody
+          - @subscription_lists.each do |subscription|
+            tr
+              td.subscription_id #{subscription.id}
+              td #{subscription.name}
+              td #{subscription.list_type}
+              td
+                = link_to "details", subscription_list_path(subscription, :client => @client)

@@ -1,8 +1,7 @@
 .col-md-12
+  h2 Clients
   .pull-right
     = link_to "Create a client", new_client_path, class: 'btn btn-primary'
-  h2 Clients
-
   .panel.panel-default
     .panel-body
       table.table.table-stripped#clients
@@ -23,4 +22,5 @@
               td #{client.contact_email}
               td #{client.country_code}
               td
-                = link_to "Details", client_path(client)
+                = link_to "Details", client_path(client), class: 'btn btn-xs'
+                = link_to "Edit", edit_client_path(client), class: 'btn btn-xs'

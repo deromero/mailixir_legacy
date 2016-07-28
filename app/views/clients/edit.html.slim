@@ -1,0 +1,12 @@
+h2 Edit client
+
+= simple_form_for @client do |f|
+  = f.input :name
+  = f.input :contact_name
+  = f.input :contact_email
+  = f.input :country_code
+  = f.input :time_zone
+
+  = f.button :submit, class: 'btn-primary'
+
+= flash_messages layout_flash: false

@@ -76,5 +76,34 @@ RSpec.describe 'clients' do
       expect(campaign_ids.size).to eq(10)
     end
 
+    describe 'when a user edit a client' do
+
+      before do
+        find('tr',text: @selected_client.name).click_link("Edit")
+      end
+
+      it 'should successfully edit' do
+        fill_in "Name", with: "The updated client name"
+        fill_in "Contact name", with: "The updated client contact name"
+        fill_in "Contact email", with: "updated@email.com"
+        select  "Italy", :from => "Country code"
+        fill_in "Time zone", with: "+1"
+
+        click_on "Update Client"
+
+        expect(page).to have_content("The updated client name")
+        expect(page).to have_content "The updated client name successfully updated!"
+      end
+
+      it 'should not to edit for validation issues' do
+
+
+      end
+
+    end
+
   end
+
+
+
 end

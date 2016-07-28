@@ -15,8 +15,16 @@ Rails.application.routes.draw do
     root 'dashboard#index', as: :subdomain_root
     devise_for :users
     resources :users, only: [:index]
-    resources :campaigns, only: [:index, :new, :create, :show]
-    resources :clients, only: [:index, :new, :create, :show]
+    resources :clients
+    resources :campaigns, only: [:index, :new, :create, :show, :edit, :update]
+
+    get 'campaigns/build/:id', to: 'campaigns#build', as: 'build_campaign'
+    get 'campaigns/schedule/:id', to: 'campaigns#schedule', as: 'schedule_campaign'
+
+    resources :mail_contents, only: [:new, :create, :edit, :update, :destroy]
+    resources :recipients, only: [:new, :create, :edit, :update, :destroy]
+    resources :subscription_lists, only: [:index, :show, :new, :create, :edit, :update, :destroy]
+
   end
 
   constraints(SubdomainBlankConstraint) do

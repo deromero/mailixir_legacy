@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160704201131) do
+ActiveRecord::Schema.define(version: 20160722112023) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -48,6 +48,47 @@ ActiveRecord::Schema.define(version: 20160704201131) do
     t.string   "contact_email", default: "", null: false
     t.string   "country_code",  default: "", null: false
     t.integer  "time_zone",     default: -5, null: false
+  end
+
+  create_table "mail_contents", force: :cascade do |t|
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+    t.integer  "campaign_id"
+    t.text     "html_content", default: "", null: false
+    t.text     "text_content", default: "", null: false
+    t.index ["campaign_id"], name: "index_campaign_id", using: :btree
+  end
+
+  create_table "recipients", force: :cascade do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "comments"
+    t.integer  "click_count"
+    t.datetime "click_on"
+    t.text     "dsn"
+    t.integer  "open_count"
+    t.datetime "open_on"
+    t.datetime "sent_on"
+    t.datetime "bounce_on"
+    t.boolean  "was_clicked"
+    t.boolean  "was_opened"
+    t.boolean  "was_sent"
+    t.boolean  "was_failed"
+    t.boolean  "was_parsed"
+    t.datetime "parsed_on"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "campaign_id"
+    t.index ["campaign_id"], name: "index_recipients_campaign_id", using: :btree
+  end
+
+  create_table "subscription_lists", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "list_type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "client_id"
+    t.index ["client_id"], name: "index_subscription_list_client_id", using: :btree
   end
 
   create_table "users", force: :cascade do |t|

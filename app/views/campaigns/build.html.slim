@@ -1,0 +1,30 @@
+.col-md-8.col-md-offset-2
+  h1 Campaign Summary
+
+  .panel.panel-default
+    .panel-heading Properties
+    ul.list-group
+      li.list-group-item
+        strong Campaign Name:&nbsp;
+        = @campaign.name
+      li.list-group-item
+        strong Subject:&nbsp;
+        = @campaign.subject
+    .panel-footer
+      = link_to 'edit properties', edit_campaign_path(@campaign), class: 'btn btn-default'
+
+  - if @campaign.has_content?
+    .panel.panel-default
+      .panel-heading Content
+      ul.list-group
+        li.list-group-item
+          strong Html:&nbsp;
+          = @campaign.mail_content.html_content
+        li.list-group-item
+          strong Text:&nbsp;
+          = @campaign.mail_content.text_content
+      .panel-footer
+        = link_to 'edit content', edit_mail_content_path(@campaign.mail_content, :campaign => @campaign), class: 'btn btn-default'
+
+
+  = render 'campaigns/partials/build_actions'

@@ -14,7 +14,7 @@ RSpec.describe Client, type: :model do
   end
 
   describe 'associations' do
-    #it { should has_many :campaigns }
+    it { should have_many :campaigns }
   end
 
 end

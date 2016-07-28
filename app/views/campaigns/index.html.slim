@@ -1,8 +1,8 @@
 .col-md-12
-  .pull-right
-    = link_to "Create a campaign", new_campaign_path, class: 'btn btn-primary'
   h2 Campaigns
-
+  div
+    = link_to "Create a campaign", new_campaign_path, class: 'btn btn-primary'
+  br /
   .panel.panel-default
     .panel-body
       table.table.table-stripped#campaigns
@@ -14,6 +14,7 @@
             th Subject
             th Status
             th Scheduled
+            th
         tbody
           - @campaigns.each do |campaign|
             tr
@@ -23,3 +24,5 @@
               td #{campaign.subject}
               td #{campaign.status}
               td #{campaign.scheduled_on}
+              td
+                = link_to "details", campaign_path(campaign)

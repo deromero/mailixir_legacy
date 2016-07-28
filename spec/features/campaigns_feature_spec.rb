@@ -33,7 +33,7 @@ RSpec.describe 'campaigns' do
       click_on "Create a campaign"
     end
 
-    it "should sucess" do
+    it "should success" do
 
       fill_in "Name", with: "My first campaign"
       fill_in "Subject", with: "Campaign Subject"
@@ -52,7 +52,7 @@ RSpec.describe 'campaigns' do
 
     end
 
-    it "should generic unsucess" do
+    it "should generic unsuccess" do
 
       fill_in "Name", with: "My first campaign"
       fill_in "Subject", with: "Campaign Subject"
@@ -80,6 +80,34 @@ RSpec.describe 'campaigns' do
       expect(page).to have_content "must exist"
     end
 
+  end
+
+  describe 'when a user creates a campaign from dashboard ' do
+
+    before(:each) do
+      @created_clients = create_list(:client, 10)
+      visit root_path
+      click_on "Create New Campaign"
+    end
+
+    it 'should create a campaign' do
+      fill_in "Name", with: "My first campaign from dashboard index"
+      fill_in "Subject", with: "Campaign Subject from dashboard index"
+      fill_in "From email", with: "from@campaign.com"
+      fill_in "From name", with: "From Name"
+      fill_in "Reply to", with: "reply_to@campaign.com"
+      fill_in "Send report to", with: "report@campaign.com"
+
+      selected_client = @created_clients[0]
+      select selected_client.name, from: "Client"
+
+      click_on  "Create Campaign"
+
+      expect(page).to have_content "My first campaign from dashboard index"
+      expect(page).to have_content "Campaign My first campaign from dashboard index successfully created!"
+
+
+    end
   end
 
 end

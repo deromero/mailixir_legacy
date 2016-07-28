@@ -1,0 +1,16 @@
+.col-md-8.col-md-offset-2
+  h1 Campaign Content
+
+  .panel.panel-default
+    .panel-heading Content
+    .panel-body
+      = flash_messages layout_flash: false
+      = simple_form_for @mail_content, :url => mail_contents_path(:campaign=> @campaign) do |f|
+        = f.input :html_content
+        = f.input :text_content
+        = f.hidden_field :campaign_id, value: @campaign.id
+
+        = f.button :submit, class: 'btn-primary'
+
+
+

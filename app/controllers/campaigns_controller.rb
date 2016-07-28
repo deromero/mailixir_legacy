@@ -19,8 +19,32 @@ class CampaignsController < ApplicationController
     end
   end
 
+  def edit
+    find_by_id
+  end
+
+  def update
+    find_by_id
+
+    if @campaign.update_attributes(campaign_params)
+      redirect_to campaign_path @campaign
+      flash[:notice] = "Campaign #{@campaign.name} successfully updated!"
+    else
+      render :edit
+    end
+  end
+
   def show
-    @campaign = Campaign.find(params[:id])
+    find_by_id
+
+    if @campaign.is_draft?
+      redirect_to build_campaign_path @campaign
+    end
+
+  end
+
+  def build
+    find_by_id
   end
 
   private
@@ -31,5 +55,8 @@ class CampaignsController < ApplicationController
                                      :send_report_to)
   end
 
+  def find_by_id
+    @campaign = Campaign.find(params[:id])
+  end
 
 end

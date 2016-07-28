@@ -1,8 +1,8 @@
 .col-md-12
+  h2 #{@client.name}
   .pull-right
     = link_to "Create a campaign", new_campaign_path, class: 'btn btn-primary'
-
-  h2 #{@client.name}
+    = link_to 'Subscription Lists', subscription_lists_path(:client => @client), class: 'btn btn-default'
 
   .panel.panel-default
     .panel-body

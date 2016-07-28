@@ -1,0 +1,16 @@
+.col-md-8.col-md-offset-2.panel.panel-default
+  .panel-body
+    h2 Edit Campaign Properties
+
+    = simple_form_for @campaign do |f|
+      = f.input :name
+      = f.association :client
+      = f.input :subject
+      = f.input :from_email
+      = f.input :from_name
+      = f.input :reply_to
+      = f.input :send_report_to
+
+      = f.button :submit, class: 'btn-primary'
+
+    = flash_messages layout_flash: false
