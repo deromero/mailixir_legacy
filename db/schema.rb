@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160722112023) do
+ActiveRecord::Schema.define(version: 20160728200131) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -80,6 +80,18 @@ ActiveRecord::Schema.define(version: 20160722112023) do
     t.datetime "updated_at",  null: false
     t.integer  "campaign_id"
     t.index ["campaign_id"], name: "index_recipients_campaign_id", using: :btree
+  end
+
+  create_table "subscribers", force: :cascade do |t|
+    t.string   "name"
+    t.string   "email"
+    t.boolean  "is_active"
+    t.integer  "bounce_count"
+    t.text     "bounce_comments"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+    t.integer  "subscription_list_id"
+    t.index ["subscription_list_id"], name: "index_subscribers_subscription_list_id", using: :btree
   end
 
   create_table "subscription_lists", force: :cascade do |t|

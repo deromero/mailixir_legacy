@@ -25,6 +25,10 @@ Rails.application.routes.draw do
     resources :recipients, only: [:new, :create, :edit, :update, :destroy]
     resources :subscription_lists, only: [:index, :show, :new, :create, :edit, :update, :destroy]
 
+    get 'subscribers/add/', to: 'subscribers#add' , as: 'add_subscribers'
+    post 'subscribers/add_manual/', to: 'subscribers#add_manual' , as: 'add_manual_subscribers'
+    post 'subscribers/clear/', to: 'subscribers#clear' , as: 'clear_subscribers'
+
   end
 
   constraints(SubdomainBlankConstraint) do

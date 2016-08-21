@@ -25,6 +25,7 @@ RSpec.configure do |config|
   config.include EmailSpec::Matchers
 
   config.include Features, type: :feature
+  config.include Mocks, type: :feature
 
   config.infer_spec_type_from_file_location!
   config.filter_rails_from_backtrace!

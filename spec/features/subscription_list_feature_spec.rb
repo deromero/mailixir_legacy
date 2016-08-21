@@ -93,7 +93,32 @@ RSpec.describe 'subscription list' do
     before do
       @client = create(:client)
       @subscriptions = create_list(:subscription_list, 15, client: @client)
+      @selected_subscription = @subscriptions[9]
+      visit subscription_list_path(@selected_subscription, :client => @client)
     end
+
+    it 'edit with success' do
+      click_on "Edit"
+
+      fill_in "Name", with: "The new name"
+
+      click_on "Update Subscription list"
+
+      expect(page).to have_current_path(subscription_list_path(@selected_subscription, :client => @client))
+      expect(page).to have_content("The new name")
+      expect(page).to have_content("Subscription List successfully updated!")
+
+    end
+
+    it 'is invalid because validations' do
+      click_on "Edit"
+
+      fill_in "Name", with: ""
+
+      click_on "Update Subscription list"
+      expect(page).to have_css('.has-error')
+    end
+
 
   end
 

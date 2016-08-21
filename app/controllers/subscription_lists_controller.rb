@@ -6,12 +6,12 @@ class SubscriptionListsController < ApplicationController
     @subscription_lists = @client.subscription_lists
   end
 
-  def new
-    @subscription_list = SubscriptionList.new( client: @client )
-  end
-
   def show
 
+  end
+
+  def new
+    @subscription_list = SubscriptionList.new( client: @client )
   end
 
   def create
@@ -21,6 +21,20 @@ class SubscriptionListsController < ApplicationController
       flash[:notice] = "Subscription List successfully created!"
     else
       render :new
+    end
+  end
+
+  def edit
+
+  end
+
+  def update
+
+    if @model.update_attributes(subscription_list_params)
+      redirect_to subscription_list_path(@model, :client => @client)
+      flash[:notice] = "Subscription List successfully updated!"
+    else
+      render :edit
     end
   end
 

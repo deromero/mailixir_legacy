@@ -17,6 +17,7 @@ gem 'devise_invitable'
 gem 'apartment'
 gem 'simple_form'
 gem 'country_select'
+gem 'activerecord-import', '~> 0.15.0'
 
 group :development, :test do
   gem 'guard'

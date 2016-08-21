@@ -1,0 +1,13 @@
+.col-md-8.col-md-offset-2
+  h1 Edit Subscription List
+
+  .panel.panel-default
+    .panel-heading Form
+    .panel-body
+      = flash_messages layout_flash: false
+      = simple_form_for @model, :url => subscription_list_path(:client=> @client) do |f|
+        = f.input :name
+        = f.input :list_type, collection: SubscriptionList.list_types.keys
+        = f.hidden_field :client_id, value: @client.id
+
+        = f.button :submit, class: 'btn-primary'

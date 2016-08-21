@@ -1,0 +1,17 @@
+.col-md-8.col-md-offset-2
+  h1 Add subscribers to #{@list.name}
+
+  .panel.panel-default
+    .panel-heading
+      a href="#" Manually add
+    .panel-body
+      = flash_messages layout_flash: false
+      = simple_form_for @manual,
+                        url: add_manual_subscribers_path(list: @list, client: @client),
+                        html: { method: :post } do |f|
+        = f.input :csv_string do
+          .input-group
+            = f.text_field :csv_string, label: 'Enter subscribers', class: 'form-control'
+
+        =f.button :submit, 'Add subscribers', class: 'btn-primary'
+

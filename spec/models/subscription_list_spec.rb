@@ -11,10 +11,12 @@ RSpec.describe SubscriptionList, type: :model do
   describe 'validations' do
     it { should validate_presence_of :name }
     it { should validate_presence_of :list_type }
+    it { should validate_presence_of :client }
   end
 
   describe 'associations' do
     it { should belong_to :client }
+    it { should have_many :subscribers }
   end
 
 

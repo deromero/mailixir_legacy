@@ -1,6 +1,24 @@
 .col-md-8.col-md-offset-2
   h1 #{@model.name}
   .panel.panel-default
-    .panel-heading Details
+    .panel-heading #{@model.name} - #{@model.list_type}
     .panel-body
       p #{@model.name} - #{@model.list_type}
+    table.table.table.-stripped#subscribers
+      thead
+        tr
+          th ID
+          th Name
+          th Email
+          th
+      tbody
+        - @model.subscribers.each do |subscriber|
+          tr
+            td.subscriber_id #{subscriber.id}
+            td #{subscriber.name}
+            td #{subscriber.email}
+            td
+  .btn-group
+    = link_to "Edit", edit_subscription_list_path(@model, :client=>@client), class: 'btn btn-default'
+    = link_to "Add subscribers", add_subscribers_path(:list => @model, :client=>@client), class: 'btn btn-default'
+    = link_to "Clear list", clear_subscribers_path(:list => @model, :client=>@client), method: :post ,class: 'btn btn-default'
